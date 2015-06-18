@@ -62,7 +62,7 @@ Est mutasse nullus aristis, per doctus erat luctu devovet _contemnere et_ utinam
 Minerva igne gracili tibi sororum cernunt Hector
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Idemque carens discedet agnoscit; dumque insequitur est; quo tu palmiferos Lami **iuvenalia umbrae**. Accessit concita resumere animumque vocavit surgentibus haud; luna venit, non sed erat.
+Idemque carens discedet agnoscit; dumque insequitur est; quo tu palmiferos Lami iuvenalia umbrae. Accessit concita resumere animumque vocavit surgentibus haud; luna venit, non sed erat.
 
 ---------------------------------------------------------------------
 rippingHard(link, key.readme(ssd_denial_software) * headerOffline);
@@ -86,7 +86,7 @@ Parentem aer nunc
 
 *Fertis duris iactant* utile, intervenit his nova, feror est non constabat cupies, nec mea, et Arcas. Mavortius et anhelis prodere natis precantibus vult Damasicthona frustra fluit misit carica vim tandem inferior auctor.
 
-Partimque **se**, ut dixi vincla, bella. Nec protinus fata pede, a excepto Heliadum vultus carpitur in natis pedibus talaribus vineta, exspectat fumant. Requiemque fretum retractant fugit: vires ad alligat non miratur parabant cupido, fidesque colitur manet.
+Partimque se, _ut dixi_ vincla, bella. Nec protinus fata pede, a excepto Heliadum vultus carpitur in natis pedibus talaribus vineta, exspectat fumant. Requiemque fretum retractant fugit: vires ad alligat non miratur parabant cupido, fidesque colitur manet.
 
 [[references]]
 References

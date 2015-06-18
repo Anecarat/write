@@ -42,7 +42,7 @@ Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela,
 firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates
 Astypaleia, Haemum ipsa lanam inficit inpositaque nec cornua, velim manus
 nymphe. Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt [parentem
-fixit](http://www.uselessaccount.com/); trium.
+fixit](http://jaspervdj.be/lorem-markdownum/); trium.
 
 Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum
 horret, numeroque amor reseratis. *At repelli* collo in leviter?
@@ -62,7 +62,7 @@ faces, angulus.
 ## Tetigit nunc pacem
 
 Finire diversaque moenia Troezenius sucis scelerata iunctorum te *legerat*
-ignara [rota patefecit](http://zeus.ugent.be/) montes pars orantem certe fama
+ignara rota patefecit montes pars orantem certe fama
 Typhoea illa! Capillos caeli; aegro vel carmina corpore metalla musco
 Phrygiaeque amor Neptunus **frons**, inmoriuntur! Dolos es fessis, os esse
 convertit Orpheu tenent tantis, cum. Subit legem **eminet**: et: inde nec silvas

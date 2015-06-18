@@ -6,7 +6,7 @@ Nec sponte ait ventisque
 Mota obice et sequentes gemino
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Lorem markdownum foedera errare, Alcyone enim! Velles and Fit (link:#ref-Velles_2015[2015]) hoc scelus https://github.com/and3k/write[mollit effugies decimum] res est artus nimium. Curru non tubas (Aliud and Cornua link:#ref-Aliud_2015[2015]) dolor adamanteis quidem et mota procul venit pectoribus _Contemptaque_ flebile boum! Sine coloribus ut frena illic merito oriens, si gravi in. Pictis quibus nulla non sisti iure; sed horum aquarum ducere, lati dotem altera Amphionis, potest?
+Lorem markdownum foedera errare, Alcyone enim! Velles, Fit, and Iovi (link:#ref-Velles_2015[2015]) hoc scelus https://github.com/and3k/write[mollit effugies decimum] res est artus nimium. Curru non tubas (Aliud and Cornua link:#ref-Aliud_2015[2015]) dolor adamanteis quidem et mota procul venit pectoribus _Contemptaque_ flebile boum! Sine coloribus ut frena illic merito oriens, si gravi in. Pictis quibus nulla non sisti iure; sed horum aquarum ducere, lati dotem altera Amphionis, potest?
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Quaerit adeundi invitum passisque: laborant sacra: _quin_ est; bene, est in Helopsque posuit? Mea solvit vera, et Aeacus numina Myconon Phoebus fugias Minervae. Nisi est _incendia_ omnes venata ore pater cuncti decipiat.
@@ -94,4 +94,4 @@ References
 
 Aliud, Trita, and Genitor Cornua. 2015. “Ignare Quae Ac *Patruelibus* Puto Pertulerint *Erat* Quondam Sed Quis.” _Invidiosus Vires_ 1 (1): 1–10. http://doi.org/10.0000/abcdef[doi:10.0000/abcdef].
 
-Velles, Suam, and Aliis Fit. 2015. __Cum Vel Discriminis Etiam Fugit Lacrimas Udaeque Dignas Tot Gradus Est Curasque__. 1st ed. Vota Strepitum: Specularer Desiluit.
+Velles, Suam, Aliis Fit, and Mecum Pugnae Iovi. 2015. __Cum Vel Discriminis Etiam Fugit Lacrimas Udaeque Dignas Tot Gradus Est Curasque__. 1st ed. Vota Strepitum: Specularer Desiluit.

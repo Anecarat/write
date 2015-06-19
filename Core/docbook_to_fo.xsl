@@ -10,6 +10,13 @@ Import official stylesheets
 
 
 
+<!--
+Page setup
+-->
+
+<xsl:param name="paper.type">A4</xsl:param>
+
+
 
 
 
@@ -17,7 +24,6 @@ Import official stylesheets
 
 <!-- GENERAL -->
 
-<!-- <xsl:param name="paper.type">A4</xsl:param> -->
 <!-- <xsl:param name="hyphenate">false</xsl:param> -->
 
 

@@ -55,7 +55,12 @@ The output of `make` should look something like this and display no errors:
 
 ```
 pandoc Content/Article_demo.md -o Output/Article_demo.xml --filter pandoc-citeproc --no-wrap -t docbook --standalone
-pandoc Content/Article_demo.md -o Output/Article_demo.adoc --filter pandoc-citeproc --no-wrap -t asciidoc
+xsltproc --output Output/Article_demo.fo Core/docbook_to_fo.xsl Output/Article_demo.xml
+Making portrait pages on USletter paper (8.5inx11in)
+fop -c Core/fop_config.xml -fo Output/Article_demo.fo -pdf Output/Article_demo.pdf
+INFO: Rendered page #1.
+INFO: Rendered page #2.
+INFO: Rendered page #3.
 ```
 
 

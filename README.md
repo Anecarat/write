@@ -16,11 +16,11 @@ then this is perfect for you!
 
 # Installation
 
+The is an installation guide for Ubuntu, please adapt the command to your operation system as needed. This framework should work on all GNU/Linux distributions, as well as OS X and Windows.
+
 ## Prerequisites
 
 You’ll need to install git, pandoc and pandoc-citeproc.
-
-Ubuntu:
 
 ```sh
 sudo apt-get install git pandoc pandoc-citeproc.

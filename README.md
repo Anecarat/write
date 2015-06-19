@@ -1,6 +1,6 @@
 # write!
 
-A ready-to-use framework to generate beautiful scientific documents written in markdown.
+A ready-to-use framework to generate beautiful scientific documents, like journal articles, directly from markdown text.
 
 **This is still a work in progress and not yet usable!**
 

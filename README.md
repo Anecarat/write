@@ -2,13 +2,19 @@
 
 A ready-to-use framework to generate beautiful scientific documents written in markdown.
 
-**This is still a work in progress and not yet usable**
+**This is still a work in progress and not yet usable!**
 
 # Installation
 
 You’ll need to install git, pandoc and pandoc-citeproc.
 
-# Use
+Ubuntu:
+
+```sh
+sudo apt-get install git pandoc pandoc-citeproc.
+```
+
+# Usage
 
 Get a copy of this repository.
 

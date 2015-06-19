@@ -26,10 +26,10 @@ Open up your favourite terminal an let’s go!
 
 ## Prerequisites
 
-You’ll need to install make, git, pandoc, pandoc-citeproc, xsltproc, DocBook stylesheets, and fop.
+You’ll need to install make, git, pandoc, pandoc-citeproc, asciidoctor, xsltproc, DocBook stylesheets, and fop.
 
 ```sh
-sudo apt-get install build-essential git-core pandoc pandoc-citeproc xsltproc docbook-xsl fop
+sudo apt-get install build-essential git-core pandoc pandoc-citeproc asciidoctor xsltproc docbook-xsl fop
 ```
 
 
@@ -54,14 +54,14 @@ make -B demo
 The output of `make` should look something like this and display no errors:
 
 ```
-pandoc Content/Article_demo.md -o Output/Article_demo.xml --filter pandoc-citeproc --no-wrap -t docbook --standalone
+pandoc Content/Article_demo.md -o Output/Article_demo.adoc --filter pandoc-citeproc --no-wrap -t asciidoc
+asciidoctor --backend docbook --out-file Output/Article_demo.xml Output/Article_demo.adoc
 xsltproc --output Output/Article_demo.fo Core/docbook_to_fo.xsl Output/Article_demo.xml
 Making portrait pages on A4 paper (210mmx297mm)
 fop -c Core/fop_config.xml -fo Output/Article_demo.fo -pdf Output/Article_demo.pdf
 INFO: Rendered page #1.
 INFO: Rendered page #2.
 INFO: Rendered page #3.
-pandoc Content/Article_demo.md -o Output/Article_demo.adoc --filter pandoc-citeproc --no-wrap -t asciidoc
 ```
 
 ## Update write!

@@ -19,12 +19,14 @@ then this is perfect for you!
 
 # Installation
 
-The is an installation guide for Ubuntu, please adapt the command to your operation system as needed. This framework should work on all GNU/Linux distributions, as well as OS X and Windows.
+This installation guide is written for Ubuntu, please adapt the commands to your operation system where needed. write! should work on all GNU/Linux distributions, as well as OS X and Windows.
+
+Open up your favourite terminal an let’s go!
 
 
 ## Prerequisites
 
-You’ll need to install make, git, pandoc and pandoc-citeproc.
+You’ll need to install make, git, pandoc, and pandoc-citeproc.
 
 ```sh
 sudo apt-get install build-essential git-core pandoc pandoc-citeproc.
@@ -37,7 +39,6 @@ Get a copy of this repository.
 
 ```sh
 git clone git@github.com:and3k/write.git
-cd write
 ```
 
 
@@ -46,20 +47,22 @@ cd write
 Test if all the tools work.
 
 ```sh
+cd write
 make -B
 ```
 
-The output of `make` should look something like this and display not errors:
+The output of `make` should look something like this and display no errors:
 
 ```
 pandoc Content/Article_demo.md -o Output/Article_demo.xml --filter pandoc-citeproc --no-wrap -t docbook --standalone
 pandoc Content/Article_demo.md -o Output/Article_demo.adoc --filter pandoc-citeproc --no-wrap -t asciidoc
-
 ```
 
 
 
 # Usage
+
+**This is still a work in progress and not yet usable!**
 
 Create a new document in the folder `Content/` with the extension `.md` and run `make`.
 
@@ -67,4 +70,8 @@ The export files can be found in the folder `Output/`
 
 Voila!
 
-**This is still a work in progress and not yet usable!**
+
+
+# Under the hood
+
+pandoc is used to convert your markdown documents to DocBook, which is then further converted to FO which can be used to generate PDFs.

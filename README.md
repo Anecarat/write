@@ -64,6 +64,14 @@ INFO: Rendered page #3.
 pandoc Content/Article_demo.md -o Output/Article_demo.adoc --filter pandoc-citeproc --no-wrap -t asciidoc
 ```
 
+## Update write!
+
+```sh
+cd write
+git pull
+make -B
+```
+
 
 
 # Usage

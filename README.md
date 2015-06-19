@@ -9,7 +9,7 @@ A ready-to-use framework to generate beautiful scientific documents, like journa
 
 If you
 
-1. (want to) write you documents in markdown, and
+1. (want to) write your documents in markdown, and
 2. need a Word export of you document, and/or
 3. need a beautiful PDF export of you document,
 
@@ -24,10 +24,10 @@ The is an installation guide for Ubuntu, please adapt the command to your operat
 
 ## Prerequisites
 
-You’ll need to install git, pandoc and pandoc-citeproc.
+You’ll need to install make, git, pandoc and pandoc-citeproc.
 
 ```sh
-sudo apt-get install git pandoc pandoc-citeproc.
+sudo apt-get install build-essential git-core pandoc pandoc-citeproc.
 ```
 
 

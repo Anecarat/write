@@ -75,3 +75,9 @@ Voila!
 # Under the hood
 
 pandoc is used to convert your markdown documents to DocBook, which is then further converted to FO which can be used to generate PDFs.
+
+
+
+# Help and Feedback
+
+Please use https://github.com/and3k/write/issues

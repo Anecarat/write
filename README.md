@@ -2,7 +2,7 @@
 
 A ready-to-use framework to generate beautiful scientific documents written in markdown.
 
-**This is still a work in progress and not yet useable**
+**This is still a work in progress and not yet usable**
 
 # Installation
 

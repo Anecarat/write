@@ -26,10 +26,10 @@ Open up your favourite terminal an let’s go!
 
 ## Prerequisites
 
-You’ll need to install make, git, pandoc, and pandoc-citeproc.
+You’ll need to install make, git, pandoc, pandoc-citeproc, xsltproc, DocBook stylesheets, and fop.
 
 ```sh
-sudo apt-get install build-essential git-core pandoc pandoc-citeproc.
+sudo apt-get install build-essential git-core pandoc pandoc-citeproc xsltproc docbook-xsl fop
 ```
 
 
@@ -83,6 +83,9 @@ Voila!
 
 pandoc is used to convert your markdown documents to DocBook, which is then further converted to FO which can be used to generate PDFs.
 
+Futher reading:
+
+* [Official Ubuntu DocBook guide](https://help.ubuntu.com/community/DocBook)
 
 
 # Help and Feedback

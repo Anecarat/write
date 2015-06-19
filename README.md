@@ -4,6 +4,7 @@ A ready-to-use framework to generate beautiful scientific documents written in m
 
 **This is still a work in progress and not yet usable!**
 
+
 ## Is this for you?
 
 If you
@@ -14,9 +15,12 @@ If you
 
 then this is perfect for you!
 
+
+
 # Installation
 
 The is an installation guide for Ubuntu, please adapt the command to your operation system as needed. This framework should work on all GNU/Linux distributions, as well as OS X and Windows.
+
 
 ## Prerequisites
 
@@ -26,6 +30,7 @@ You’ll need to install git, pandoc and pandoc-citeproc.
 sudo apt-get install git pandoc pandoc-citeproc.
 ```
 
+
 ## Get write!
 
 Get a copy of this repository.
@@ -34,6 +39,7 @@ Get a copy of this repository.
 git clone git@github.com:and3k/write.git
 cd write
 ```
+
 
 ## Test your setup
 
@@ -50,6 +56,7 @@ pandoc Content/Article_demo.md -o Output/Article_demo.xml --filter pandoc-citepr
 pandoc Content/Article_demo.md -o Output/Article_demo.adoc --filter pandoc-citeproc --no-wrap -t asciidoc
 
 ```
+
 
 
 # Usage

@@ -4,6 +4,16 @@ A ready-to-use framework to generate beautiful scientific documents written in m
 
 **This is still a work in progress and not yet usable!**
 
+## Is this for you?
+
+If you
+
+1. (want to) write you documents in markdown, and
+2. need a Word export of you document, and/or
+3. need a beautiful PDF export of you document,
+
+then this is perfect for you!
+
 # Installation
 
 You’ll need to install git, pandoc and pandoc-citeproc.

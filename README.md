@@ -64,9 +64,10 @@ pandoc Content/Article_demo.md -o Output/Article_demo.adoc --filter pandoc-citep
 
 **This is still a work in progress and not yet usable!**
 
-Create a new document in the folder `Content/` with the extension `.md` and run `make`.
 
-The export files can be found in the folder `Output/`
+## For the impatient
+
+Create a new document in the folder `Content/` with the extension `.md`, start writing (in markdown), and run `make` to convert it to a PDF. The export files can be found in the folder `Output/`
 
 Voila!
 

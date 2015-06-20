@@ -12,12 +12,50 @@ Import stylesheets
 
 
 
-
 <!--
 Page setup
 -->
 
 <xsl:param name="paper.type">A4</xsl:param>
+
+
+
+<!--
+External links
+-->
+
+<!-- Show external links -->
+<xsl:param name="ulink.show">1</xsl:param>
+<!-- As footnotes -->
+<xsl:param name="ulink.footnotes">1</xsl:param>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

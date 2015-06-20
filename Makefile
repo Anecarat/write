@@ -1,11 +1,11 @@
 .PHONY: all demo
 .SECONDARY:
 
-PANDOC = pandoc $< -o $@ --filter pandoc-citeproc --no-wrap
+help:
+	echo 'write! version 0.pre-alpha'
+	echo 'Please run `make all` to automatically build all documents.'
 
-all: auto demo
-
-auto:
+all:
 	make $(addprefix Output/,$(addsuffix .pdf,$(basename $(shell cd Content && find . -name '*.md'))))
 
 demo: Output/Demo/Article_demo.pdf
@@ -14,6 +14,8 @@ demo: Output/Demo/Article_demo.pdf
 
 # The basic write! pipeline:
 # markdown > AsciiDoc > DocBook > FO > PDF
+
+PANDOC = pandoc $< -o $@ --filter pandoc-citeproc --no-wrap
 
 Output/%.md: Content/%.md Core/rework_markdown.sed
 	cp $< $@

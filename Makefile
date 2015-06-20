@@ -3,7 +3,10 @@
 
 PANDOC = pandoc $< -o $@ --filter pandoc-citeproc --no-wrap
 
-all: demo
+all: auto demo
+
+auto:
+	make $(addprefix Output/,$(addsuffix .pdf,$(basename $(shell cd Content && find . -name '*.md'))))
 
 demo: Output/Demo/Article_demo.pdf
 
@@ -36,8 +39,8 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 # Create new document
 
 %.article:
+	mkdir -p Content/$(dir $@) Output/$(dir $@)
 	make Content/$(basename $@).md
 
 Content/%.md:
-	mkdir -p $(dir $@)
 	touch $@

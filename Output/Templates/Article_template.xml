@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc?>
+<?asciidoc-numbered?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Abstract</title>
+<date>2015-06-20</date>
+</info>
+<section xml:id="abstract">
+<title>Abstract</title>
+<simpara>Your abstract goes here.</simpara>
+</section>
+<section xml:id="introduction">
+<title>Introduction</title>
+<simpara>Your introduction goes here.</simpara>
+</section>
+<section xml:id="materials-and-methods">
+<title>Materials and methods</title>
+<simpara>Your materials and methods go here.</simpara>
+</section>
+<section xml:id="results">
+<title>Results</title>
+<simpara>Your results go here.</simpara>
+</section>
+<section xml:id="discussion">
+<title>Discussion</title>
+<simpara>Your discussion goes here.</simpara>
+</section>
+<section xml:id="conclusions">
+<title>Conclusions</title>
+<simpara>Your Conclusions go here.</simpara>
+</section>
+<section xml:id="references">
+<title>References</title>
+
+</section>
+</article>

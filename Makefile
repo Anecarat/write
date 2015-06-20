@@ -4,7 +4,7 @@ PANDOC = pandoc $< -o $@ --filter pandoc-citeproc --no-wrap
 
 all: demo
 
-demo: Output/Article_demo.pdf
+demo: Output/Demo/Article_demo.pdf
 
 Output/%.adoc: Content/%.md References/*.bib
 	$(PANDOC) -t asciidoc

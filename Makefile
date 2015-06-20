@@ -6,7 +6,7 @@ help:
 	echo 'Please run `make all` to automatically build all documents.'
 
 all:
-	make $(addprefix Output/,$(addsuffix .pdf,$(basename $(shell cd Content && find . -name '*.md'))))
+	make $(addprefix Output/,$(addsuffix .pdf,$(basename $(shell cd Content && find * -name '*.md'))))
 
 demo: Output/Demo/Article_demo.pdf
 
@@ -41,13 +41,5 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 # Create new document
 
 %.article:
-	make Content/$(basename $@).md Stylesheets/$(basename $@).docbook_to_fo.xsl
-	mkdir -p Output/$(dir $@)
-
-Content/%.md:
-	mkdir -p $(dir $@)
-	touch $@
-
-Stylesheets/%.docbook_to_fo.xsl:
-	mkdir -p $(dir $@)
-	touch $@
+	mkdir -p Content/$(dir $@) Stylesheets/$(dir $@) Output/$(dir $@)
+	touch Content/$(basename $@).md Stylesheets/$(basename $@).docbook_to_fo.xsl

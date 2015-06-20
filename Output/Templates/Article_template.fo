@@ -3,27 +3,27 @@
 
 <fo:block id="abstract"><fo:block><fo:block><fo:block margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats" keep-together.within-column="always"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Abstract</fo:marker><fo:block font-size="20.736pt">Abstract</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
 
-<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Your abstract goes here.</fo:block>
+<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Abstract goes here.</fo:block>
 </fo:block>
 <fo:block id="introduction"><fo:block><fo:block><fo:block margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats" keep-together.within-column="always"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Introduction</fo:marker><fo:block font-size="20.736pt">Introduction</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
 
-<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Your introduction goes here.</fo:block>
+<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Introduction goes here.</fo:block>
 </fo:block>
 <fo:block id="materials-and-methods"><fo:block><fo:block><fo:block margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats" keep-together.within-column="always"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Materials and methods</fo:marker><fo:block font-size="20.736pt">Materials and methods</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
 
-<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Your materials and methods go here.</fo:block>
+<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Materials and methods go here.</fo:block>
 </fo:block>
 <fo:block id="results"><fo:block><fo:block><fo:block margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats" keep-together.within-column="always"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Results</fo:marker><fo:block font-size="20.736pt">Results</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
 
-<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Your results go here.</fo:block>
+<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Results go here.</fo:block>
 </fo:block>
 <fo:block id="discussion"><fo:block><fo:block><fo:block margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats" keep-together.within-column="always"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Discussion</fo:marker><fo:block font-size="20.736pt">Discussion</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
 
-<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Your discussion goes here.</fo:block>
+<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Discussion goes here.</fo:block>
 </fo:block>
 <fo:block id="conclusions"><fo:block><fo:block><fo:block margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats" keep-together.within-column="always"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">Conclusions</fo:marker><fo:block font-size="20.736pt">Conclusions</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
 
-<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Your Conclusions go here.</fo:block>
+<fo:block space-before.optimum="1em" space-before.minimum="0.8em" space-before.maximum="1.2em">Conclusions go here.</fo:block>
 </fo:block>
 <fo:block id="references"><fo:block><fo:block><fo:block margin-left="0pt" font-family="sans-serif,Symbol,ZapfDingbats" keep-together.within-column="always"><fo:block keep-with-next.within-column="always"><fo:block font-family="sans-serif,Symbol,ZapfDingbats" font-weight="bold" keep-with-next.within-column="always" space-before.minimum="0.8em" space-before.optimum="1.0em" space-before.maximum="1.2em" text-align="start" start-indent="0pt"><fo:marker marker-class-name="section.head.marker">References</fo:marker><fo:block font-size="20.736pt">References</fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
 

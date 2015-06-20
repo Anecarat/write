@@ -1,6 +1,6 @@
 ---
-title: The title of your article
-author: Your name
+title: Title goes here
+author: Author name goes here
 date: 2015-06-20
 bibliography: References/Your_references.bib
 ---
@@ -9,37 +9,37 @@ bibliography: References/Your_references.bib
 
 # Abstract
 
-Your abstract goes here.
+Abstract goes here.
 
 
 
 # Introduction
 
-Your introduction goes here.
+Introduction goes here.
 
 
 
 # Materials and methods
 
-Your materials and methods go here.
+Materials and methods go here.
 
 
 
 # Results
 
-Your results go here.
+Results go here.
 
 
 
 # Discussion
 
-Your discussion goes here.
+Discussion goes here.
 
 
 
 # Conclusions
 
-Your Conclusions go here.
+Conclusions go here.
 
 
 

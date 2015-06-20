@@ -2,37 +2,37 @@
 Abstract
 --------
 
-Your abstract goes here.
+Abstract goes here.
 
 [[introduction]]
 Introduction
 ------------
 
-Your introduction goes here.
+Introduction goes here.
 
 [[materials-and-methods]]
 Materials and methods
 ---------------------
 
-Your materials and methods go here.
+Materials and methods go here.
 
 [[results]]
 Results
 -------
 
-Your results go here.
+Results go here.
 
 [[discussion]]
 Discussion
 ----------
 
-Your discussion goes here.
+Discussion goes here.
 
 [[conclusions]]
 Conclusions
 -----------
 
-Your Conclusions go here.
+Conclusions go here.
 
 [[references]]
 References

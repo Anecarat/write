@@ -74,7 +74,7 @@ INFO: Rendered page #3.
 ```sh
 cd write
 git pull
-make -B
+make -B all
 ```
 
 
@@ -86,7 +86,12 @@ make -B
 
 ## For the impatient
 
-Create a new document in the folder `Content/` with the extension `.md`, start writing (in markdown), and run `make` to convert it to a PDF. The export files can be found in the folder `Output/`
+```sh
+cd write
+make <Project name>/<Document name>.article
+```
+
+This creates a new document in the folder `Content/<Project name>/` with the extension `.md`. Add some text (in markdown), and run `make` to convert it to a PDF. The export files can be found in the folder `Output/<Project name>/`
 
 Voila!
 

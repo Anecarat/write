@@ -1,10 +1,13 @@
 .PHONY: all demo
+.SECONDARY:
 
 PANDOC = pandoc $< -o $@ --filter pandoc-citeproc --no-wrap
 
 all: demo
 
 demo: Output/Demo/Article_demo.pdf
+
+
 
 # The basic write! pipeline:
 # markdown > AsciiDoc > DocBook > FO > PDF
@@ -27,3 +30,14 @@ Output/%.fo: Output/%.xml Core/rework_fo.sed Core/docbook_to_fo.xsl Core/docbook
 
 Output/%.pdf: Output/%.fo Core/fop_config.xml
 	fop -c $(word 2,$^) -fo $< -pdf $@
+
+
+
+# Create new document
+
+%.article:
+	make Content/$(basename $@).md
+
+Content/%.md:
+	mkdir -p $(dir $@)
+	touch $@

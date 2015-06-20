@@ -6,11 +6,14 @@ all: demo
 
 demo: Output/Demo/Article_demo.pdf
 
-Output/%.adoc: Content/%.md References/*.bib
-	$(PANDOC) -t asciidoc
+# The basic write! pipeline:
+# markdown > AsciiDoc > DocBook > FO > PDF
 
-#Output/%.xml: Content/%.md References/*.bib
-#	$(PANDOC) -t docbook --standalone
+Output/%.md: Content/%.md
+	cp $< $@
+
+Output/%.adoc: Output/%.md References/*.bib
+	$(PANDOC) -t asciidoc
 
 Output/%.xml: Output/%.adoc
 	asciidoctor --backend docbook --out-file $@ $<

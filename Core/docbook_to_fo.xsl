@@ -21,6 +21,15 @@ Page setup
 
 
 <!--
+Table of contents (TOC)
+-->
+
+<!-- this enables TOC in the PDF metadata (also called PDF bookmarks) -->
+<xsl:param name="fop1.extensions">1</xsl:param>
+
+
+
+<!--
 External links
 -->
 
@@ -70,7 +79,6 @@ External links
 
 <!-- TOC -->
 
-<!-- <xsl:param name="fop1.extensions">1</xsl:param> Generates the PDF TOC (PDF “bookmarks”) --> 
 <!-- <xsl:param name="generate.toc"></xsl:param> no TOC in the document --> 
 
 

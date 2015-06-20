@@ -54,11 +54,16 @@ make -B demo
 The output of `make` should look something like this and display no errors:
 
 ```
-pandoc Content/Article_demo.md -o Output/Article_demo.adoc --filter pandoc-citeproc --no-wrap -t asciidoc
-asciidoctor --backend docbook --out-file Output/Article_demo.xml Output/Article_demo.adoc
-xsltproc --output Output/Article_demo.fo Core/docbook_to_fo.xsl Output/Article_demo.xml
+cp Content/Demo/Article_demo.md Output/Demo/Article_demo.md
+sed -i -f Core/rework_markdown.sed Output/Demo/Article_demo.md
+pandoc Output/Demo/Article_demo.md -o Output/Demo/Article_demo.adoc --filter pandoc-citeproc --no-wrap -t asciidoc
+sed -i -f Core/rework_asciidoc.sed Output/Demo/Article_demo.adoc
+asciidoctor --backend docbook --out-file Output/Demo/Article_demo.xml Output/Demo/Article_demo.adoc
+sed -i -f Core/rework_docbook.sed Output/Demo/Article_demo.xml
+xsltproc --output Output/Demo/Article_demo.fo Core/docbook_to_fo.xsl Output/Demo/Article_demo.xml
 Making portrait pages on A4 paper (210mmx297mm)
-fop -c Core/fop_config.xml -fo Output/Article_demo.fo -pdf Output/Article_demo.pdf
+sed -i -f Core/rework_fo.sed Output/Demo/Article_demo.fo
+fop -c Core/fop_config.xml -fo Output/Demo/Article_demo.fo -pdf Output/Demo/Article_demo.pdf
 INFO: Rendered page #1.
 INFO: Rendered page #2.
 INFO: Rendered page #3.

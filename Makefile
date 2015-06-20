@@ -29,7 +29,7 @@ Output/%.xml: Output/%.adoc Core/rework_docbook.sed
 	asciidoctor --backend docbook --out-file $@ $<
 	sed -i -f $(word 2,$^) $@
 
-Output/%.fo: Output/%.xml Core/rework_fo.sed Core/docbook_to_fo.xsl Core/docbook_common.xsl
+Output/%.fo: Output/%.xml Core/rework_fo.sed Stylesheets/%.docbook_to_fo.xsl Core/docbook_to_fo.xsl Core/docbook_common.xsl
 	xsltproc --output $@ $(word 3,$^) $<
 	sed -i -f $(word 2,$^) $@
 
@@ -41,11 +41,13 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 # Create new document
 
 %.article:
-	mkdir -p Content/$(dir $@) Stylesheets/$(dir $@) Output/$(dir $@)
 	make Content/$(basename $@).md Stylesheets/$(basename $@).docbook_to_fo.xsl
+	mkdir -p Output/$(dir $@)
 
 Content/%.md:
+	mkdir -p $(dir $@)
 	touch $@
 
 Stylesheets/%.docbook_to_fo.xsl:
+	mkdir -p $(dir $@)
 	touch $@

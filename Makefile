@@ -41,8 +41,11 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 # Create new document
 
 %.article:
-	mkdir -p Content/$(dir $@) Output/$(dir $@)
-	make Content/$(basename $@).md
+	mkdir -p Content/$(dir $@) Stylesheets/$(dir $@) Output/$(dir $@)
+	make Content/$(basename $@).md Stylesheets/$(basename $@).docbook_to_fo.xsl
 
 Content/%.md:
+	touch $@
+
+Stylesheets/%.docbook_to_fo.xsl:
 	touch $@

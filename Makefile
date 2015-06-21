@@ -1,4 +1,4 @@
-.PHONY: help debug all pdfs msdocs demo
+.PHONY: help debug all pdfs fancy_htmls msdocs demo
 .SECONDARY:
 
 
@@ -28,9 +28,12 @@ debug: help
 
 all_outputs = $(addprefix Output/,$(basename $(shell cd Content && ls */*.md)))
 
-all: pdfs msdocs
+all: pdfs fancy_htmls msdocs
 
 pdfs: $(addsuffix .pdf,$(all_outputs))
+	@echo Done: $^
+
+fancy_htmls: $(addsuffix .fancy.html,$(all_outputs))
 	@echo Done: $^
 
 msdocs: $(addsuffix .doc,$(all_outputs))
@@ -38,6 +41,7 @@ msdocs: $(addsuffix .doc,$(all_outputs))
 
 demo: \
 		Output/Demo/Article_demo.pdf \
+		Output/Demo/Article_demo.fancy.html \
 		Output/Demo/Article_demo.doc
 	@echo Done: $^
 
@@ -70,6 +74,14 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 
 
 
+# The write! pipeline for fancy HTML output
+#   markdown > AsciiDoc > HTML
+
+Output/%.fancy.html: Output/%.adoc
+	asciidoctor --out-file $@ $<
+
+
+
 # The write! pipeline for Word export
 #   markdown > AsciiDoc > DocBook > HTML > Word
 
@@ -79,6 +91,7 @@ Output/%.html: Output/%.xml Core/rework_html.sed Stylesheets/%.docbook_to_html.x
 
 Output/%.doc: Output/%.html
 	unoconv -d document --f doc $<
+
 
 
 

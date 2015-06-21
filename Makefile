@@ -1,4 +1,4 @@
-.PHONY: help debug all pdfs demo
+.PHONY: help debug all pdfs msdocs demo
 .SECONDARY:
 
 
@@ -27,11 +27,13 @@ debug: help
 # Build documents
 
 all_outputs = $(addprefix Output/,$(basename $(shell cd Content && ls */*.md)))
-all_pdfs = $(addsuffix .pdf,$(all_outputs))
 
-all: pdfs
+all: pdfs msdocs
 
-pdfs: $(all_pdfs)
+pdfs: $(addsuffix .pdf,$(all_outputs))
+	@echo Done: $^
+
+msdocs: $(addsuffix .doc,$(all_outputs))
 	@echo Done: $^
 
 demo: \

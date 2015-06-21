@@ -67,7 +67,11 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 	fop -c $(word 2,$^) -fo $< -pdf $@
 
 
-Output/%.html: Output/%.xml Core/rework_fo.sed /usr/share/sgml/docbook/xsl-stylesheets/html/docbook.xsl
+
+# The write! pipeline for Word export
+#   markdown > AsciiDoc > DocBook > HTML > Word
+
+Output/%.html: Output/%.xml Core/rework_html.sed Stylesheets/%.docbook_to_html.xsl Stylesheets/docbook_to_html.xsl Stylesheets/docbook_common.xsl Stylesheets/*/docbook_common.xsl
 	xsltproc --output $@ $(word 3,$^) $<
 	sed -i -f $(word 2,$^) $@
 

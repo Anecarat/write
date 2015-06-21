@@ -41,13 +41,13 @@ demo: \
 
 
 # The basic write! pipeline:
-# markdown > AsciiDoc > DocBook > FO > PDF
+#   markdown > AsciiDoc > DocBook > FO > PDF
 
 PANDOC = pandoc $< -o $@ --filter pandoc-citeproc --no-wrap
 
 Output/%.md: Content/%.md Core/rework_markdown.sed Content/*/rework.sed
 	cp $< $@
-	sed -i -f $(dir $<)/rework.sed $@
+	sed -i -f $(<D)/rework.sed $@
 	sed -i -f $(word 2,$^) $@
 
 Output/%.adoc: Output/%.md Core/rework_asciidoc.sed References/*.bib
@@ -73,6 +73,6 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 #     make Templates/Article_template.article
 
 %.article:
-	mkdir -p Content/$(dir $@) Stylesheets/$(dir $@) Output/$(dir $@)
-	touch Content/$(dir $@)/rework.sed
+	mkdir -p Content/$(@D) Stylesheets/$(@D) Output/$(@D)
+	touch Content/$(@D)/rework.sed
 	touch Content/$(basename $@).md Stylesheets/$(basename $@).docbook_to_fo.xsl

@@ -33,8 +33,9 @@ demo: \
 
 PANDOC = pandoc $< -o $@ --filter pandoc-citeproc --no-wrap
 
-Output/%.md: Content/%.md Core/rework_markdown.sed
+Output/%.md: Content/%.md Core/rework_markdown.sed Content/*/rework.sed
 	cp $< $@
+	sed -i -f $(dir $<)/rework.sed $@
 	sed -i -f $(word 2,$^) $@
 
 Output/%.adoc: Output/%.md Core/rework_asciidoc.sed References/*.bib

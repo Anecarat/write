@@ -9,9 +9,9 @@ A ready-to-use framework to generate beautiful scientific documents, like journa
 
 If you
 
-1. (want to) write your documents in markdown, and
-2. need a Word export of you document, and/or
-3. need a beautiful PDF export of you document,
+1. (want to) write your documents in markdown (or AsciiDoc),
+2. and need a beautiful PDF or HTML version of your document,
+3. but also a Microsoft Word export,
 
 then this is perfect for you!
 
@@ -94,7 +94,7 @@ cd write
 make <Project name>/<Document name>.article
 ```
 
-This creates a new document in the folder `Content/<Project name>/` with the extension `.md`. Add some text (in markdown), and run `make all` to convert it to a PDF. All export files can be found in the folder `Output/<Project name>/`
+This creates a new document in the folder `Content/<Project name>/` with the extension `.md`. Add some text (in markdown), and run `make all` to convert it to a PDF, HTML, and Microsoft Word file. All export files can be found in the folder `Output/<Project name>/`
 
 Voila!
 
@@ -115,7 +115,7 @@ See also http://pandoc.org/README.html#citations.
 
 # Under the hood
 
-[pandoc](https://en.wikipedia.org/wiki/Pandoc) is used to convert your markdown documents to [AsciiDoc](https://en.wikipedia.org/wiki/AsciiDoc). [AsciiDoctor](http://asciidoctor.org/) is used to further convert it to [DocBook](https://en.wikipedia.org/wiki/DocBook), which is then converted to [FO](https://en.wikipedia.org/wiki/XSL_Formatting_Objects) which can be used to generate PDFs.
+[pandoc](https://en.wikipedia.org/wiki/Pandoc) is used to convert your markdown documents to [AsciiDoc](https://en.wikipedia.org/wiki/AsciiDoc). Asciidoctor is used to further convert it to [DocBook](https://en.wikipedia.org/wiki/DocBook), which is then converted to [FO](https://en.wikipedia.org/wiki/XSL_Formatting_Objects) which can be used to generate PDFs.
 
 
 ## Futher reading

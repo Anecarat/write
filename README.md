@@ -105,10 +105,10 @@ In the YAML header of your document, you can set the following:
 
 * `bibliography`: this should point to your [BibTeX](https://en.wikipedia.org/wiki/BibTeX) file, which you can put in the folder `References/`. Any other pandoc-supported bibliography file and its location will work, but then documents will not be automatically updated if the bibliography file changes (see [Known_issues.md](https://github.com/and3k/write/blob/master/Known_issues.md)).
   * Example: `bibliography: References/Demo.bib`.
-* `csl`: this should point to any of the citation styles located in the folder `Citation_styles/` or be left empty. [All publicly available CSL files](https://github.com/citation-style-language/styles) are included for your convenience.
+* `csl`: this should point to any of the [citation styles](http://citationstyles.org/) located in the folder `Citation_styles/` or be left empty. [All publicly available CSL files](https://github.com/citation-style-language/styles) are included for your convenience.
   * Example: `csl: Citation_styles/science.csl`.
 
-See also: http://pandoc.org/README.html#citations and http://citationstyles.org/
+See also http://pandoc.org/README.html#citations.
 
 
 

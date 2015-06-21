@@ -74,5 +74,6 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 
 %.article:
 	mkdir -p Content/$(@D) Stylesheets/$(@D) Output/$(@D)
-	touch Content/$(@D)/rework.sed
-	touch Content/$(basename $@).md Stylesheets/$(basename $@).docbook_to_fo.xsl
+	test -f Content/$(@D)/rework.sed || cp -v Content/Templates/rework.sed Content/$(@D)/rework.sed
+	test -f Content/$(basename $@).md || cp -v Content/Templates/Article_template.md Content/$(basename $@).md
+	test -f Stylesheets/$(basename $@).docbook_to_fo.xsl || cp -v Stylesheets/Templates/Article_template.docbook_to_fo.xsl Stylesheets/$(basename $@).docbook_to_fo.xsl

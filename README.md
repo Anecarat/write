@@ -55,18 +55,20 @@ The output of `make` should look something like this and display no errors:
 
 ```
 cp Content/Demo/Article_demo.md Output/Demo/Article_demo.md
+sed -i -f Content/Demo/rework.sed Output/Demo/Article_demo.md
 sed -i -f Core/rework_markdown.sed Output/Demo/Article_demo.md
 pandoc Output/Demo/Article_demo.md -o Output/Demo/Article_demo.adoc --filter pandoc-citeproc --no-wrap -t asciidoc
 sed -i -f Core/rework_asciidoc.sed Output/Demo/Article_demo.adoc
 asciidoctor --backend docbook --out-file Output/Demo/Article_demo.xml Output/Demo/Article_demo.adoc
 sed -i -f Core/rework_docbook.sed Output/Demo/Article_demo.xml
-xsltproc --output Output/Demo/Article_demo.fo Core/docbook_to_fo.xsl Output/Demo/Article_demo.xml
+xsltproc --output Output/Demo/Article_demo.fo Stylesheets/Demo/Article_demo.docbook_to_fo.xsl Output/Demo/Article_demo.xml
 Making portrait pages on A4 paper (210mmx297mm)
 sed -i -f Core/rework_fo.sed Output/Demo/Article_demo.fo
 fop -c Core/fop_config.xml -fo Output/Demo/Article_demo.fo -pdf Output/Demo/Article_demo.pdf
 INFO: Rendered page #1.
 INFO: Rendered page #2.
 INFO: Rendered page #3.
+Done: Output/Demo/Article_demo.pdf
 ```
 
 ## Update write!

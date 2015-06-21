@@ -1,4 +1,4 @@
-If you know a good solution to any of the following issues, feel free to submit them here: https://github.com/and3k/write/issues. Thank you!
+If you know a good solution to any of the following issues, feel free to [submit them](https://github.com/and3k/write/issues). Thank you!
 
 # Makefile
 

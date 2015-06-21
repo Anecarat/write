@@ -111,4 +111,4 @@ pandoc is used to convert your markdown documents to DocBook, which is then furt
 
 Feel free to ask for help or submit feedback and issues at https://github.com/and3k/write/issues.
 
-There are some know issues listed in [Known_issues.md](https://github.com/and3k/write/blob/master/Known_issues.md).
+There are some known issues listed in [Known_issues.md](https://github.com/and3k/write/blob/master/Known_issues.md).

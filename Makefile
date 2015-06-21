@@ -55,7 +55,11 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 
 
 # Create new document
+#   e.g.:
+#     make Demo/Article_demo.article
+#     make Templates/Article_template.article
 
 %.article:
 	mkdir -p Content/$(dir $@) Stylesheets/$(dir $@) Output/$(dir $@)
+	touch Content/$(dir $@)/rework.sed
 	touch Content/$(basename $@).md Stylesheets/$(basename $@).docbook_to_fo.xsl

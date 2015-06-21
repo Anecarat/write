@@ -2,18 +2,18 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" version="1.0">
 
 <!--
-Import stylesheets
+  Import stylesheets
 -->
 
-<!-- <xsl:import href="http://docbook.sourceforge.net/release/xsl/current/fo/docbook.xsl"/> -->
-<xsl:import href="/usr/share/xml/docbook/stylesheet/docbook-xsl/fo/docbook.xsl"/>
+<!-- In Ubuntu the local path is /usr/share/xml/docbook/stylesheet/docbook-xsl/fo/docbook.xsl -->
+<xsl:import href="http://docbook.sourceforge.net/release/xsl/current/fo/docbook.xsl"/>
 
 <xsl:import href="docbook_common.xsl"/>
 
 
 
 <!--
-Page setup
+  Page setup
 -->
 
 <xsl:param name="paper.type">A4</xsl:param>
@@ -21,7 +21,7 @@ Page setup
 
 
 <!--
-Table of contents (TOC)
+  Table of contents (TOC)
 -->
 
 <!-- this enables TOC in the PDF metadata (also called PDF bookmarks) -->
@@ -30,7 +30,7 @@ Table of contents (TOC)
 
 
 <!--
-External links
+  External links
 -->
 
 <!-- Show external links -->

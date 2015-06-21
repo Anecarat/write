@@ -36,7 +36,7 @@ pdfs: $(all_pdfs)
 
 demo: \
 		Output/Demo/Article_demo.pdf \
-		Output/Demo/Article_demo.html
+		Output/Demo/Article_demo.doc
 	@echo Done: $^
 
 
@@ -74,6 +74,9 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 Output/%.html: Output/%.xml Core/rework_html.sed Stylesheets/%.docbook_to_html.xsl Stylesheets/docbook_to_html.xsl Stylesheets/docbook_common.xsl Stylesheets/*/docbook_common.xsl
 	xsltproc --output $@ $(word 3,$^) $<
 	sed -i -f $(word 2,$^) $@
+
+Output/%.doc: Output/%.html
+	unoconv -d document --f doc $<
 
 
 

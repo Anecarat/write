@@ -39,6 +39,8 @@ Get a copy of this repository.
 
 ```sh
 git clone git@github.com:and3k/write.git
+cd write
+git submodule update --init
 ```
 
 
@@ -47,7 +49,6 @@ git clone git@github.com:and3k/write.git
 Test if all the tools work.
 
 ```sh
-cd write
 make -B demo
 ```
 

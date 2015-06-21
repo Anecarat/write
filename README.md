@@ -1,4 +1,4 @@
-# write!
+# write*!*
 
 A ready-to-use framework to generate beautiful scientific documents, like journal articles, directly from markdown text.
 

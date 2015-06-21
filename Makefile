@@ -1,4 +1,4 @@
-.PHONY: help all demo
+.PHONY: help all pdfs demo
 .SECONDARY:
 
 
@@ -14,11 +14,17 @@ help:
 
 # Build documents
 
-all:
-	make $(addprefix Output/,$(addsuffix .pdf,$(basename $(shell cd Content && find * -name '*.md'))))
+all_outputs = $(addprefix Output/,$(basename $(shell cd Content && ls */*.md)))
+all_pdfs = $(addsuffix .pdf,$(all_outputs))
+
+all: pdfs
+
+pdfs: $(all_pdfs)
+	@echo Done: $^
 
 demo: \
-	Output/Demo/Article_demo.pdf
+		Output/Demo/Article_demo.pdf
+	@echo Done: $^
 
 
 

@@ -69,7 +69,11 @@ fop -c Core/fop_config.xml -fo Output/Demo/Article_demo.fo -pdf Output/Demo/Arti
 INFO: Rendered page #1.
 INFO: Rendered page #2.
 INFO: Rendered page #3.
-Done: Output/Demo/Article_demo.pdf
+asciidoctor --out-file Output/Demo/Article_demo.fancy.html Output/Demo/Article_demo.adoc
+xsltproc --output Output/Demo/Article_demo.html Stylesheets/Demo/Article_demo.docbook_to_html.xsl Output/Demo/Article_demo.xml
+sed -i -f Core/rework_html.sed Output/Demo/Article_demo.html
+unoconv -d document --f doc Output/Demo/Article_demo.html
+Done: Output/Demo/Article_demo.pdf Output/Demo/Article_demo.fancy.html Output/Demo/Article_demo.doc
 ```
 
 ## Update write!

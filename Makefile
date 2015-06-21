@@ -1,14 +1,26 @@
-.PHONY: help all pdfs demo
+.PHONY: help debug all pdfs demo
 .SECONDARY:
 
 
 
-# Intro to write!
+# Help
 
 help:
 	@echo 'write! 0.1'
 	@echo 'Run `make all` to automatically (re-)build all documents.'
 	@echo 'Run `make <Project name>/<Document name>.article` to create a new article-type document.'
+
+debug: help
+	@echo
+	pandoc --version
+	@echo
+	pandoc-citeproc --version
+	@echo
+	asciidoctor --version
+	@echo
+	xsltproc --version
+	@echo
+	fop -version
 
 
 

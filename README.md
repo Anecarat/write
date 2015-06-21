@@ -120,6 +120,7 @@ See also http://pandoc.org/README.html#citations.
 
 ## Futher reading
 
+* [What is AsciiDoc? Why do we need it?](http://asciidoctor.org/docs/what-is-asciidoc/)
 * [Official Ubuntu DocBook guide](https://help.ubuntu.com/community/DocBook)
 
 

@@ -45,7 +45,7 @@ demo: \
 
 PANDOC = pandoc $< -o $@ --filter pandoc-citeproc --no-wrap
 
-Output/%.md: Content/%.md Core/rework_markdown.sed Content/*/rework.sed
+Output/%.md: Content/%.md Core/rework_markdown.sed Content/*/rework.sed Citation_styles/*.csl
 	cp $< $@
 	sed -i -f $(<D)/rework.sed $@
 	sed -i -f $(word 2,$^) $@

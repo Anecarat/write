@@ -35,7 +35,8 @@ pdfs: $(all_pdfs)
 	@echo Done: $^
 
 demo: \
-		Output/Demo/Article_demo.pdf
+		Output/Demo/Article_demo.pdf \
+		Output/Demo/Article_demo.html
 	@echo Done: $^
 
 
@@ -66,6 +67,14 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 	fop -c $(word 2,$^) -fo $< -pdf $@
 
 
+Output/%.html: Output/%.xml Core/rework_fo.sed /usr/share/sgml/docbook/xsl-stylesheets/html/docbook.xsl
+	xsltproc --output $@ $(word 3,$^) $<
+	sed -i -f $(word 2,$^) $@
+
+
+
+
+
 
 # Create new document
 #   e.g.:
@@ -78,3 +87,4 @@ Output/%.pdf: Output/%.fo Core/fop_config.xml
 	test -f Content/$(@D)/rework.sed || cp -v Content/Templates/rework.sed Content/$(@D)/rework.sed
 	test -f Stylesheets/$(@D)/docbook_common.xsl || cp -v Stylesheets/Templates/docbook_common.xsl Stylesheets/$(@D)/docbook_common.xsl
 	test -f Stylesheets/$(basename $@).docbook_to_fo.xsl || cp -v Stylesheets/Templates/Article_template.docbook_to_fo.xsl Stylesheets/$(basename $@).docbook_to_fo.xsl
+	test -f Stylesheets/$(basename $@).docbook_to_html.xsl || cp -v Stylesheets/Templates/Article_template.docbook_to_html.xsl Stylesheets/$(basename $@).docbook_to_html.xsl

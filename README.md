@@ -19,7 +19,7 @@ then this is perfect for you!
 
 # Installation
 
-This installation guide is written for Ubuntu, please adapt the commands to your operation system where needed. write! should work on all GNU/Linux distributions, as well as OS X and Windows.
+This installation guide is written for Ubuntu, please adapt the commands to your operation system where needed. write*!* should work on all GNU/Linux distributions, as well as OS X and Windows.
 
 Open up your favourite terminal an let’s go!
 
@@ -33,7 +33,7 @@ sudo apt-get install build-essential git-core pandoc pandoc-citeproc asciidoctor
 ```
 
 
-## Get write!
+## Get write*!*
 
 Get a copy of this repository.
 
@@ -76,7 +76,7 @@ unoconv -d document --f doc Output/Demo/Article_demo.html
 Done: Output/Demo/Article_demo.pdf Output/Demo/Article_demo.fancy.html Output/Demo/Article_demo.doc
 ```
 
-## Update write!
+## Update write*!*
 
 ```sh
 cd write

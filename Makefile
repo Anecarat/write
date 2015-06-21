@@ -1,14 +1,24 @@
-.PHONY: all demo
+.PHONY: help all demo
 .SECONDARY:
 
+
+
+# Intro to write!
+
 help:
-	echo 'write! version 0.pre-alpha'
-	echo 'Please run `make all` to automatically build all documents.'
+	@echo 'write! 0.1'
+	@echo 'Run `make all` to automatically (re-)build all documents.'
+	@echo 'Run `make <Project name>/<Document name>.article` to create a new article-type document.'
+
+
+
+# Build documents
 
 all:
 	make $(addprefix Output/,$(addsuffix .pdf,$(basename $(shell cd Content && find * -name '*.md'))))
 
-demo: Output/Demo/Article_demo.pdf
+demo: \
+	Output/Demo/Article_demo.pdf
 
 
 

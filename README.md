@@ -32,6 +32,8 @@ You’ll need to install [Make](https://www.gnu.org/software/make/), [Git](https
 sudo apt-get install make git pandoc pandoc-citeproc asciidoctor xsltproc docbook-xsl fop unoconv
 ```
 
+Ubuntu is pretty up-to-date on most of the required software. However you can optionally [update pandoc to the development version](https://github.com/jgm/pandoc/wiki/Installing-the-development-version-of-pandoc) to get the most out of you document.
+
 
 ## Get write*!*
 

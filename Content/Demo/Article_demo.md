@@ -48,6 +48,56 @@ Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela, fir
 
 Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. *At repelli* collo in leviter?
 
+<!-- Table examples are taken from http://pandoc.org/README.html#tables -->
+
+  Right     Left     Center     Default
+-------     ------ ----------   -------
+     12     12        12            12
+    123     123       123          123
+      1     1          1             1
+
+Table:  Demonstration of simple table syntax.
+
+Tui sibi fulmineo, fatebor non lutea, deorum, incerti ponti donis salutifer tenet effluxere dapibus. Iove nec cedit casu, huc mihi; sub apta humum quam alite cum, Iove.
+
+-------------------------------------------------------------
+ Centered   Default           Right Left
+  Header    Aligned         Aligned Aligned
+----------- ------- --------------- -------------------------
+   First    row                12.0 Example of a row that
+                                    spans multiple lines.
+
+  Second    row                 5.0 Here's another one. Note
+                                    the blank line between
+                                    rows.
+-------------------------------------------------------------
+
+Table: Here's the caption. It, too, may span
+multiple lines.
+
+Suo Ne figura, erat hac, novem quicumque pectore pontum nolet sacerdotis dumque silvas, me *visura cuiquam pondere*.
+
+: Sample grid table.
+
++---------------+---------------+--------------------+
+| Fruit         | Price         | Advantages         |
++===============+===============+====================+
+| Bananas       | $1.34         | - built-in wrapper |
+|               |               | - bright color     |
++---------------+---------------+--------------------+
+| Oranges       | $2.10         | - cures scurvy     |
+|               |               | - tasty            |
++---------------+---------------+--------------------+
+
+Ademptas fodit duxit.
+
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:|
+|   12  |  12  |    12   |    12  |
+|  123  |  123 |   123   |   123  |
+|    1  |    1 |     1   |     1  |
+
+  : Demonstration of pipe table syntax.
 
 
 

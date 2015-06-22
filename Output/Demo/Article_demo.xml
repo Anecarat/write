@@ -48,6 +48,161 @@
 <title>Prodis prima Caphereus suadent</title>
 <simpara>Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela, firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia, Haemum ipsa lanam inficit inpositaque nec cornua, velim manus nymphe. Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt <link xlink:href="http://jaspervdj.be/lorem-markdownum/">parentem fixit</link>; trium.</simpara>
 <simpara>Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. <emphasis>At repelli</emphasis> collo in leviter?</simpara>
+<table frame="all" rowsep="1" colsep="1">
+<title>Demonstration of simple table syntax.</title>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="33*"/>
+<colspec colname="col_2" colwidth="33*"/>
+<colspec colname="col_3" colwidth="33*"/>
+<thead>
+<row>
+<entry align="right" valign="top">Right</entry>
+<entry align="left" valign="top">Left</entry>
+<entry align="center" valign="top">Center</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="right" valign="top"><simpara>Default</simpara></entry>
+<entry align="left" valign="top"><simpara>12</simpara></entry>
+<entry align="center" valign="top"><simpara>12</simpara></entry>
+</row>
+<row>
+<entry align="right" valign="top"><simpara>12</simpara></entry>
+<entry align="left" valign="top"><simpara>12</simpara></entry>
+<entry align="center" valign="top"><simpara>123</simpara></entry>
+</row>
+<row>
+<entry align="right" valign="top"><simpara>123</simpara></entry>
+<entry align="left" valign="top"><simpara>123</simpara></entry>
+<entry align="center" valign="top"><simpara>123</simpara></entry>
+</row>
+<row>
+<entry align="right" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<simpara>Tui sibi fulmineo, fatebor non lutea, deorum, incerti ponti donis salutifer tenet effluxere dapibus. Iove nec cedit casu, huc mihi; sub apta humum quam alite cum, Iove.</simpara>
+<table frame="all" rowsep="1" colsep="1">
+<title>Here&#8217;s the caption. It, too, may span multiple lines.</title>
+<?dbhtml table-width="84%"?>
+<?dbfo table-width="84%"?>
+<?dblatex table-width="84%"?>
+<tgroup cols="4">
+<colspec colname="col_1" colwidth="75*"/>
+<colspec colname="col_2" colwidth="46*"/>
+<colspec colname="col_3" colwidth="93*"/>
+<colspec colname="col_4" colwidth="143*"/>
+<thead>
+<row>
+<entry align="center" valign="top">Centered Header</entry>
+<entry align="left" valign="top">Default Aligned</entry>
+<entry align="right" valign="top">Right Aligned</entry>
+<entry align="left" valign="top">Left Aligned</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" valign="top"><simpara>First</simpara></entry>
+<entry align="left" valign="top"><simpara>row</simpara></entry>
+<entry align="right" valign="top"><simpara>12.0</simpara></entry>
+<entry align="left" valign="top"><simpara>Example of a row that spans multiple lines.</simpara></entry>
+</row>
+<row>
+<entry align="center" valign="top"><simpara>Second</simpara></entry>
+<entry align="left" valign="top"><simpara>row</simpara></entry>
+<entry align="right" valign="top"><simpara>5.0</simpara></entry>
+<entry align="left" valign="top"><simpara>Here&#8217;s another one. Note the blank line between rows.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<simpara>Suo Ne figura, erat hac, novem quicumque pectore pontum nolet sacerdotis dumque silvas, me <emphasis>visura cuiquam pondere</emphasis>.</simpara>
+<table frame="all" rowsep="1" colsep="1">
+<title>Sample grid table.</title>
+<?dbhtml table-width="73%"?>
+<?dbfo table-width="73%"?>
+<?dblatex table-width="73%"?>
+<tgroup cols="3">
+<colspec colname="col_1" colwidth="96*"/>
+<colspec colname="col_2" colwidth="93*"/>
+<colspec colname="col_3" colwidth="121*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Fruit</entry>
+<entry align="left" valign="top">Price</entry>
+<entry align="left" valign="top">Advantages</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Bananas</simpara></entry>
+<entry align="left" valign="top"><simpara>$1.34</simpara></entry>
+<entry align="left" valign="top"><itemizedlist>
+<listitem>
+<simpara>built-in wrapper</simpara>
+</listitem>
+<listitem>
+<simpara>bright color</simpara>
+</listitem>
+</itemizedlist></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Oranges</simpara></entry>
+<entry align="left" valign="top"><simpara>$2.10</simpara></entry>
+<entry align="left" valign="top"><itemizedlist>
+<listitem>
+<simpara>cures scurvy</simpara>
+</listitem>
+<listitem>
+<simpara>tasty</simpara>
+</listitem>
+</itemizedlist></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<simpara>Ademptas fodit duxit.</simpara>
+<table frame="all" rowsep="1" colsep="1">
+<title>Demonstration of pipe table syntax.</title>
+<tgroup cols="4">
+<colspec colname="col_1" colwidth="25*"/>
+<colspec colname="col_2" colwidth="25*"/>
+<colspec colname="col_3" colwidth="25*"/>
+<colspec colname="col_4" colwidth="25*"/>
+<thead>
+<row>
+<entry align="right" valign="top">Right</entry>
+<entry align="left" valign="top">Left</entry>
+<entry align="left" valign="top">Default</entry>
+<entry align="center" valign="top">Center</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="right" valign="top"><simpara>12</simpara></entry>
+<entry align="left" valign="top"><simpara>12</simpara></entry>
+<entry align="left" valign="top"><simpara>12</simpara></entry>
+<entry align="center" valign="top"><simpara>12</simpara></entry>
+</row>
+<row>
+<entry align="right" valign="top"><simpara>123</simpara></entry>
+<entry align="left" valign="top"><simpara>123</simpara></entry>
+<entry align="left" valign="top"><simpara>123</simpara></entry>
+<entry align="center" valign="top"><simpara>123</simpara></entry>
+</row>
+<row>
+<entry align="right" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="center" valign="top"><simpara>1</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
 </section>
 </section>
 <section xml:id="fecit-nostro-macareus-premunt-quodque">

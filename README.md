@@ -19,9 +19,9 @@ then this is perfect for you!
 
 # Installation
 
-This installation guide is written for Ubuntu, please adapt the commands to your operation system where needed. write*!* should work on all GNU/Linux distributions, as well as OS X and Windows.
+This installation guide is written for [Ubuntu](http://www.ubuntu.com/), please adapt the commands to your operation system where needed. write*!* should work on all GNU/Linux distributions, as well as OS X and Windows.
 
-Open up your favourite terminal an let’s go!
+Open up your favourite terminal and let’s go!
 
 
 ## Prerequisites

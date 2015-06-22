@@ -29,7 +29,7 @@ Open up your favourite terminal an let’s go!
 You’ll need to install [Make](https://www.gnu.org/software/make/), [Git](https://git-scm.com/), [pandoc](http://pandoc.org/), [pandoc-citeproc](http://pandoc.org/), [Asciidoctor](http://asciidoctor.org/), [xsltproc](http://xmlsoft.org/), [DocBook XSL stylesheets](http://docbook.sourceforge.net/), [FOP](https://xmlgraphics.apache.org/fop/), and [unoconv](http://dag.wiee.rs/home-made/unoconv/):
 
 ```sh
-sudo apt-get install build-essential git-core pandoc pandoc-citeproc asciidoctor xsltproc docbook-xsl fop unoconv
+sudo apt-get install build-essential git pandoc pandoc-citeproc asciidoctor xsltproc docbook-xsl fop unoconv
 ```
 
 

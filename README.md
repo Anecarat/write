@@ -68,9 +68,13 @@ xsltproc --output Output/Demo/Article_demo.fo Stylesheets/Demo/Article_demo.docb
 Making portrait pages on A4 paper (210mmx297mm)
 sed -i -f Core/rework_fo.sed Output/Demo/Article_demo.fo
 fop -c Core/fop_config.xml -fo Output/Demo/Article_demo.fo -pdf Output/Demo/Article_demo.pdf
-INFO: Rendered page #1.
-INFO: Rendered page #2.
-INFO: Rendered page #3.
+[warning] /usr/bin/fop: No java runtime was found
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+Font "Symbol,normal,700" not found. Substituting with "Symbol,normal,400".
+Font "ZapfDingbats,normal,700" not found. Substituting with "ZapfDingbats,normal,400".
+Rendered page #1.
+Rendered page #2.
+Rendered page #3.
 asciidoctor --out-file Output/Demo/Article_demo.fancy.html Output/Demo/Article_demo.adoc
 xsltproc --output Output/Demo/Article_demo.html Stylesheets/Demo/Article_demo.docbook_to_html.xsl Output/Demo/Article_demo.xml
 sed -i -f Core/rework_html.sed Output/Demo/Article_demo.html
@@ -144,3 +148,53 @@ See also http://pandoc.org/README.html#citations.
 Feel free to ask for help or submit feedback and issues at https://github.com/and3k/write/issues. For issues please also add the output of `make debug`.
 
 There are some known issues listed in [Known_issues.md](https://github.com/and3k/write/blob/master/Known_issues.md).
+
+Example output of `make debug`:
+
+```
+write! 0.1
+Run `make all` to automatically (re-)build all documents.
+Run `make <Project name>/<Document name>.article` to create a new article-type document.
+
+pandoc --version
+pandoc 1.14
+Compiled with texmath 0.8.2, highlighting-kate 0.5.15.
+Syntax highlighting is supported for the following languages:
+    abc, actionscript, ada, agda, apache, asn1, asp, awk, bash, bibtex, boo, c,
+    changelog, clojure, cmake, coffee, coldfusion, commonlisp, cpp, cs, css,
+    curry, d, diff, djangotemplate, dockerfile, dot, doxygen, doxygenlua, dtd,
+    eiffel, email, erlang, fasm, fortran, fsharp, gcc, glsl, gnuassembler, go,
+    haskell, haxe, html, idris, ini, isocpp, java, javadoc, javascript, json,
+    jsp, julia, latex, lex, lilypond, literatecurry, literatehaskell, lua, m4,
+    makefile, mandoc, markdown, mathematica, matlab, maxima, mediawiki,
+    metafont, mips, modelines, modula2, modula3, monobasic, nasm, noweb,
+    objectivec, objectivecpp, ocaml, octave, opencl, pascal, perl, php, pike,
+    postscript, prolog, pure, python, r, relaxng, relaxngcompact, rest, rhtml,
+    roff, ruby, rust, scala, scheme, sci, sed, sgml, sql, sqlmysql,
+    sqlpostgresql, tcl, tcsh, texinfo, verilog, vhdl, xml, xorg, xslt, xul,
+    yacc, yaml, zsh
+Default user data directory: /home/bela/.pandoc
+Copyright (C) 2006-2015 John MacFarlane
+Web:  http://johnmacfarlane.net/pandoc
+This is free software; see the source for copying conditions.
+There is no warranty, not even for merchantability or fitness
+for a particular purpose.
+
+pandoc-citeproc --version
+pandoc-citeproc 0.7.1
+
+asciidoctor --version
+Asciidoctor 1.5.2 [http://asciidoctor.org]
+Runtime Environment (ruby 2.1.2p95 (2014-05-08) [x86_64-linux-gnu]) (lc:UTF-8 fs:UTF-8 in:- ex:UTF-8)
+
+xsltproc --version
+Using libxml 20902, libxslt 10128 and libexslt 817
+xsltproc was compiled against libxml 20902, libxslt 10128 and libexslt 817
+libxslt 10128 was compiled against libxml 20902
+libexslt 817 was compiled against libxml 20902
+
+fop -version
+[warning] /usr/bin/fop: No java runtime was found
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+FOP Version 1.1
+```

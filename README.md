@@ -102,6 +102,15 @@ This creates a new document in the folder `Content/<Project name>/` with the ext
 
 Voila!
 
+### A simple example
+
+```sh
+cd write
+make My_frist_paper/Main_text.article
+make My_frist_paper/SI.article
+make all
+```
+
 
 ## References/Bibliography/Citations
 

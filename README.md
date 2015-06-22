@@ -84,6 +84,8 @@ Done: Output/Demo/Article_demo.pdf Output/Demo/Article_demo.fancy.html Output/De
 
 ## Update write*!*
 
+If you want to update write*!* to its newest version run:
+
 ```sh
 cd write
 git pull
@@ -104,7 +106,7 @@ cd write
 make <Project name>/<Document name>.article
 ```
 
-This creates a new document in the folder `Content/<Project name>/` with the extension `.md`. Add some text (in markdown), and run `make all` to convert it to a PDF, HTML, and Microsoft Word file. All export files can be found in the folder `Output/<Project name>/`
+This creates a new document named `<Document name>.md` in the folder `Content/<Project name>/`. Add some text (in markdown), and run `make all` to convert it to a PDF, HTML, and Microsoft Word file. All export files can be found in the folder `Output/<Project name>/`
 
 Voilà!
 

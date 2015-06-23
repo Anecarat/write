@@ -3,8 +3,16 @@
 <?asciidoc-numbered?>
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
-<title>Abstract</title>
-<date>2015-06-22</date>
+<title>Title goes here</title>
+<date>2015-06-23</date>
+<author>
+<personname>
+<firstname>Author</firstname>
+<othername>name</othername>
+<surname>goes here</surname>
+</personname>
+</author>
+<authorinitials>Ang</authorinitials>
 </info>
 <section xml:id="abstract">
 <title>Abstract</title>

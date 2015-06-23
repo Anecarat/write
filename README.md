@@ -89,6 +89,7 @@ If you want to update write*!* to its newest version run:
 ```sh
 cd write
 git pull
+make upgrade
 make -B all
 ```
 

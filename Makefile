@@ -1,4 +1,4 @@
-.PHONY: help debug all pdfs fancy_htmls msdocs demo
+.PHONY: help debug all pdfs fancy_htmls msdocs demo upgrade
 .SECONDARY:
 
 
@@ -110,3 +110,8 @@ Output/%.doc: Output/%.html
 	test -f Stylesheets/$(@D)/docbook_common.xsl || cp -v Stylesheets/Templates/docbook_common.xsl Stylesheets/$(@D)/docbook_common.xsl
 	test -f Stylesheets/$(basename $@).docbook_to_fo.xsl || cp -v Stylesheets/Templates/Article_template.docbook_to_fo.xsl Stylesheets/$(basename $@).docbook_to_fo.xsl
 	test -f Stylesheets/$(basename $@).docbook_to_html.xsl || cp -v Stylesheets/Templates/Article_template.docbook_to_html.xsl Stylesheets/$(basename $@).docbook_to_html.xsl
+
+# Update document structure
+
+upgrade:
+	@echo Your document setup is up-to-date!

@@ -46,9 +46,9 @@ Vix ullis aestusque gloria, spe feret costis; subsidit. Membris necis quique pal
 
 ## Prodis prima Caphereus suadent
 
-Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela (<<table_demo_1>>), firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia (<<table_demo_2>>), Haemum ipsa lanam inficit inpositaque nec cornua (<<table_demo_3>>), velim manus nymphe (<<table_demo_4>>). Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt; trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. *At repelli* collo in leviter?
+Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela (<<table_demo_1>>), firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia (<<table_demo_2>>), Haemum ipsa lanam inficit inpositaque nec cornua (<<table_demo_3>>), velim manus nymphe (<<table_demo_4>>). Visuraque tacitos (<<table_demo_5>>), nec abit leves Sipylus; repperit exsistunt; trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. *At repelli* collo in leviter?
 
-NOTE: Table examples were copied from the [Pandoc User’s Guide](http://pandoc.org/README.html#tables)!
+NOTE: Table examples 1–4 were copied from the [Pandoc User’s Guide](http://pandoc.org/README.html#tables)!
 
 
 [[table_demo_1]]
@@ -113,6 +113,26 @@ Table: Demonstration of pipe table syntax.
 |  123  |  123 |   123   |   123  |
 |    1  |    1 |     1   |     1  |
 
+
+
+Table: Demonstration of AsciiDoc table syntax.
+
+[[table_demo_5]]
+
+[cols="2*"]
+
+|===
+
+|a
+|b
+
+|A
+|B
+
+|1
+|2
+
+|===
 
 
 # Fecit nostro Macareus premunt quodque

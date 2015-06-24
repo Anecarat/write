@@ -58,7 +58,7 @@ Output/%.md: Content/%.md Core/rework_markdown.sed Content/*/rework.sed Citation
 	sed -i -f $(word 2,$^) $@
 
 Output/%.adoc: Output/%.md Core/rework_asciidoc.sed References/*.bib
-	$(PANDOC) -t asciidoc --standalone
+	$(PANDOC) -f markdown-raw_html -t asciidoc --standalone
 	sed -i -f $(word 2,$^) $@
 
 Output/%.xml: Output/%.adoc Core/rework_docbook.sed

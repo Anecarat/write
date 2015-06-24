@@ -25,7 +25,7 @@ Lorem markdownum foedera errare, Alcyone enim! @Velles_2015 hoc scelus [mollit e
 
 ## Gestae potest
 
-Se cacumina summaque temptare, Lycetum credentes torsi, pedibus. Non et tenus quicquam, a cum primordia vultuque domus di **erat iam**. Quo meque cum qui tormenti sunt quo alvo, tua colit haec animosa per.
+Se cacumina summaque temptare (<<references>>), Lycetum credentes torsi, pedibus. Non et tenus quicquam, a cum primordia vultuque domus di **erat iam**. Quo meque cum qui tormenti sunt quo alvo, tua colit haec animosa per.
 
 1. Adsum et aequora temeraria
 2. In genitore volucres
@@ -48,9 +48,7 @@ Vix ullis aestusque gloria, spe feret costis; subsidit. Membris necis quique pal
 
 Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela, firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia, Haemum ipsa lanam inficit inpositaque nec cornua, velim manus nymphe. Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt [parentem fixit](http://jaspervdj.be/lorem-markdownum/); trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. *At repelli* collo in leviter?
 
-
 NOTE: Table examples were copied from the [Pandoc User’s Guide](http://pandoc.org/README.html#tables)!
-
 
 Table: Demonstration of simple table syntax.
 
@@ -159,7 +157,7 @@ Idemque carens discedet agnoscit; dumque insequitur est; quo tu palmiferos Lami 
         rawVideoMetafile = flops_byte_page;
     }
 
-Virgineo dea Ulixes tamen posse vocanti! Iovemque quamquam falsoque curvo concubitus, quos illius `cookie_flaming_address` est aequata quae vicem. Dixere robur erat in armata superest latosque poenas, cognoscere draconem fumo. Abest reginam theatris medios licet herbas Cyllenius atque, ausim, in mole, adgreditur saltus nec mortali; est.
+Virgineo dea Ulixes tamen posse vocanti! Iovemque quamquam falsoque curvo concubitus, quos illius `cookie_flaming_address` est aequata quae vicem. Dixere robur erat in armata superest latosque poenas, cognoscere draconem fumo. Abest reginam theatris medios licet herbas Cyllenius atque, ausim, in mole, adgreditur saltus nec mortali; est (<<gestae-potest>>).
 
 
 

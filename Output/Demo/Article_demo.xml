@@ -27,7 +27,7 @@
 </section>
 <section xml:id="gestae-potest">
 <title>Gestae potest</title>
-<simpara>Se cacumina summaque temptare, Lycetum credentes torsi, pedibus. Non et tenus quicquam, a cum primordia vultuque domus di <emphasis role="strong">erat iam</emphasis>. Quo meque cum qui tormenti sunt quo alvo, tua colit haec animosa per.</simpara>
+<simpara>Se cacumina summaque temptare (<xref linkend="references"/>), Lycetum credentes torsi, pedibus. Non et tenus quicquam, a cum primordia vultuque domus di <emphasis role="strong">erat iam</emphasis>. Quo meque cum qui tormenti sunt quo alvo, tua colit haec animosa per.</simpara>
 <orderedlist numeration="arabic">
 <listitem>
 <simpara>Adsum et aequora temeraria</simpara>
@@ -270,7 +270,7 @@ if (8) {
 } else {
     rawVideoMetafile = flops_byte_page;
 }</screen>
-<simpara>Virgineo dea Ulixes tamen posse vocanti! Iovemque quamquam falsoque curvo concubitus, quos illius <literal>cookie_flaming_address</literal> est aequata quae vicem. Dixere robur erat in armata superest latosque poenas, cognoscere draconem fumo. Abest reginam theatris medios licet herbas Cyllenius atque, ausim, in mole, adgreditur saltus nec mortali; est.</simpara>
+<simpara>Virgineo dea Ulixes tamen posse vocanti! Iovemque quamquam falsoque curvo concubitus, quos illius <literal>cookie_flaming_address</literal> est aequata quae vicem. Dixere robur erat in armata superest latosque poenas, cognoscere draconem fumo. Abest reginam theatris medios licet herbas Cyllenius atque, ausim, in mole, adgreditur saltus nec mortali; est (<xref linkend="gestae-potest"/>).</simpara>
 </section>
 <section xml:id="parentem-aer-nunc">
 <title>Parentem aer nunc</title>

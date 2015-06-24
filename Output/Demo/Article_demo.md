@@ -44,11 +44,13 @@ Vix ullis aestusque gloria, spe feret costis; subsidit. Membris necis quique pal
 
 ## Prodis prima Caphereus suadent
 
-Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela, firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia, Haemum ipsa lanam inficit inpositaque nec cornua, velim manus nymphe. Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt [parentem fixit](http://jaspervdj.be/lorem-markdownum/); trium.
+Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela, firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia, Haemum ipsa lanam inficit inpositaque nec cornua, velim manus nymphe. Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt [parentem fixit](http://jaspervdj.be/lorem-markdownum/); trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. *At repelli* collo in leviter?
 
-Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. *At repelli* collo in leviter?
 
-<!-- Table examples are taken from http://pandoc.org/README.html#tables -->
+Table examples are taken from http://pandoc.org/README.html#tables
+
+
+Table: Demonstration of simple table syntax.
 
   Right     Left     Center     Default
 -------     ------ ----------   -------
@@ -56,9 +58,11 @@ Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum ho
     123     123       123          123
       1     1          1             1
 
-Table:  Demonstration of simple table syntax.
-
+      
 Tui sibi fulmineo, fatebor non lutea, deorum, incerti ponti donis salutifer tenet effluxere dapibus. Iove nec cedit casu, huc mihi; sub apta humum quam alite cum, Iove.
+
+
+Table: Demonstration of multiline table syntax.
 
 -------------------------------------------------------------
  Centered   Default           Right Left
@@ -72,12 +76,11 @@ Tui sibi fulmineo, fatebor non lutea, deorum, incerti ponti donis salutifer tene
                                     rows.
 -------------------------------------------------------------
 
-Table: Here's the caption. It, too, may span
-multiple lines.
 
 Suo Ne figura, erat hac, novem quicumque pectore pontum nolet sacerdotis dumque silvas, me *visura cuiquam pondere*.
 
-: Sample grid table.
+
+Table: Demonstration of grid table syntax.
 
 +---------------+---------------+--------------------+
 | Fruit         | Price         | Advantages         |
@@ -89,15 +92,17 @@ Suo Ne figura, erat hac, novem quicumque pectore pontum nolet sacerdotis dumque 
 |               |               | - tasty            |
 +---------------+---------------+--------------------+
 
+
 Ademptas fodit duxit.
+
+
+Table: Demonstration of pipe table syntax.
 
 | Right | Left | Default | Center |
 |------:|:-----|---------|:------:|
 |   12  |  12  |    12   |    12  |
 |  123  |  123 |   123   |   123  |
 |    1  |    1 |     1   |     1  |
-
-  : Demonstration of pipe table syntax.
 
 
 

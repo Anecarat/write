@@ -4,7 +4,7 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>Sinat equo petebam exstinguor nostris</title>
-<date>2015-06-23</date>
+<date>2015-06-24</date>
 <author>
 <personname>
 <firstname>Lorem</firstname>
@@ -53,8 +53,8 @@
 </section>
 <section xml:id="prodis-prima-caphereus-suadent">
 <title>Prodis prima Caphereus suadent</title>
-<simpara>Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela, firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia, Haemum ipsa lanam inficit inpositaque nec cornua, velim manus nymphe. Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt <link xlink:href="http://jaspervdj.be/lorem-markdownum/">parentem fixit</link>; trium.</simpara>
-<simpara>Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. <emphasis>At repelli</emphasis> collo in leviter?</simpara>
+<simpara>Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela, firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia, Haemum ipsa lanam inficit inpositaque nec cornua, velim manus nymphe. Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt <link xlink:href="http://jaspervdj.be/lorem-markdownum/">parentem fixit</link>; trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. <emphasis>At repelli</emphasis> collo in leviter?</simpara>
+<simpara>Table examples are taken from <link xlink:href="http://pandoc.org/README.html#tables">http://pandoc.org/README.html#tables</link></simpara>
 <table frame="all" rowsep="1" colsep="1">
 <title>Demonstration of simple table syntax.</title>
 <tgroup cols="3">
@@ -94,7 +94,7 @@
 </table>
 <simpara>Tui sibi fulmineo, fatebor non lutea, deorum, incerti ponti donis salutifer tenet effluxere dapibus. Iove nec cedit casu, huc mihi; sub apta humum quam alite cum, Iove.</simpara>
 <table frame="all" rowsep="1" colsep="1">
-<title>Here&#8217;s the caption. It, too, may span multiple lines.</title>
+<title>Demonstration of multiline table syntax.</title>
 <?dbhtml table-width="84%"?>
 <?dbfo table-width="84%"?>
 <?dblatex table-width="84%"?>
@@ -129,7 +129,7 @@
 </table>
 <simpara>Suo Ne figura, erat hac, novem quicumque pectore pontum nolet sacerdotis dumque silvas, me <emphasis>visura cuiquam pondere</emphasis>.</simpara>
 <table frame="all" rowsep="1" colsep="1">
-<title>Sample grid table.</title>
+<title>Demonstration of grid table syntax.</title>
 <?dbhtml table-width="73%"?>
 <?dbfo table-width="73%"?>
 <?dblatex table-width="73%"?>

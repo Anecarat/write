@@ -42,9 +42,9 @@ Vix ullis aestusque gloria, spe feret costis; subsidit. Membris necis quique pal
 Prodis prima Caphereus suadent
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela, firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia, Haemum ipsa lanam inficit inpositaque nec cornua, velim manus nymphe. Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt http://jaspervdj.be/lorem-markdownum/[parentem fixit]; trium.
+Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela, firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia, Haemum ipsa lanam inficit inpositaque nec cornua, velim manus nymphe. Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt http://jaspervdj.be/lorem-markdownum/[parentem fixit]; trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. _At repelli_ collo in leviter?
 
-Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. _At repelli_ collo in leviter?
+Table examples are taken from http://pandoc.org/README.html#tables
 
 .Demonstration of simple table syntax.
 [cols=">,<,^,",options="header",]
@@ -57,7 +57,7 @@ Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum ho
 
 Tui sibi fulmineo, fatebor non lutea, deorum, incerti ponti donis salutifer tenet effluxere dapibus. Iove nec cedit casu, huc mihi; sub apta humum quam alite cum, Iove.
 
-.Here's the caption. It, too, may span multiple lines.
+.Demonstration of multiline table syntax.
 [width="84%",cols="^21%,13%,>26%,<40%",options="header",]
 |=======================================================================
 |Centered Header |Default Aligned |Right Aligned |Left Aligned
@@ -67,7 +67,7 @@ Tui sibi fulmineo, fatebor non lutea, deorum, incerti ponti donis salutifer tene
 
 Suo Ne figura, erat hac, novem quicumque pectore pontum nolet sacerdotis dumque silvas, me __visura cuiquam pondere__.
 
-.Sample grid table.
+.Demonstration of grid table syntax.
 [width="73%",cols="31%,30%,39%",options="header",]
 |========================
 |Fruit |Price |Advantages

@@ -46,9 +46,12 @@ Vix ullis aestusque gloria, spe feret costis; subsidit. Membris necis quique pal
 
 ## Prodis prima Caphereus suadent
 
-Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela, firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia, Haemum ipsa lanam inficit inpositaque nec cornua, velim manus nymphe. Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt [parentem fixit](http://jaspervdj.be/lorem-markdownum/); trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. *At repelli* collo in leviter?
+Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela (<<table_demo_1>>), firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia (<<table_demo_2>>), Haemum ipsa lanam inficit inpositaque nec cornua (<<table_demo_3>>), velim manus nymphe (<<table_demo_4>>). Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt; trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. *At repelli* collo in leviter?
 
 NOTE: Table examples were copied from the [Pandoc User’s Guide](http://pandoc.org/README.html#tables)!
+
+
+[[table_demo_1]]
 
 Table: Demonstration of simple table syntax.
 
@@ -61,6 +64,8 @@ Table: Demonstration of simple table syntax.
       
 Tui sibi fulmineo, fatebor non lutea, deorum, incerti ponti donis salutifer tenet effluxere dapibus. Iove nec cedit casu, huc mihi; sub apta humum quam alite cum, Iove.
 
+
+[[table_demo_2]]
 
 Table: Demonstration of multiline table syntax.
 
@@ -80,6 +85,8 @@ Table: Demonstration of multiline table syntax.
 Suo Ne figura, erat hac, novem quicumque pectore pontum nolet sacerdotis dumque silvas, me *visura cuiquam pondere*.
 
 
+[[table_demo_3]]
+
 Table: Demonstration of grid table syntax.
 
 +---------------+---------------+--------------------+
@@ -96,6 +103,8 @@ Table: Demonstration of grid table syntax.
 Ademptas fodit duxit.
 
 
+[[table_demo_4]]
+
 Table: Demonstration of pipe table syntax.
 
 | Right | Left | Default | Center |
@@ -108,7 +117,7 @@ Table: Demonstration of pipe table syntax.
 
 # Fecit nostro Macareus premunt quodque
 
-Contra colorque locumque vivam, orbem habebat, nisi non alas pretium. Cum aprum elapsae velut Theseus vestigia piorum dolore esse Tegeaea. Vagitus cuspidis tetigit Calydonia confidit fetus tangere speciem spoliataque fides ad motu vertitur. Pudor videt, anum, sua pandite ter feris quoque simus accipiter fuisse, et cuspide volucris dracones o?
+Contra colorque locumque vivam, orbem habebat, nisi non alas pretium. Cum aprum elapsae velut Theseus [parentem fixit](http://jaspervdj.be/lorem-markdownum/) vestigia piorum dolore esse Tegeaea. Vagitus cuspidis tetigit Calydonia confidit fetus tangere speciem spoliataque fides ad motu vertitur. Pudor videt, anum, sua pandite ter feris quoque simus accipiter fuisse, et cuspide volucris dracones o?
 
 Furta auxilium Perseus hinc alto Atlantis mortis similisque superos niveisque. Rapienda alis est, enim, dum via remeat suis tamen, sed Cydoneasque ferox et faces, angulus.
 

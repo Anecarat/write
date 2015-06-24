@@ -56,11 +56,11 @@
 </section>
 <section xml:id="prodis-prima-caphereus-suadent">
 <title>Prodis prima Caphereus suadent</title>
-<simpara>Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela, firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia, Haemum ipsa lanam inficit inpositaque nec cornua, velim manus nymphe. Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt <link xlink:href="http://jaspervdj.be/lorem-markdownum/">parentem fixit</link>; trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. <emphasis>At repelli</emphasis> collo in leviter?</simpara>
+<simpara>Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela (<xref linkend="table_demo_1"/>), firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia (<xref linkend="table_demo_2"/>), Haemum ipsa lanam inficit inpositaque nec cornua (<xref linkend="table_demo_3"/>), velim manus nymphe (<xref linkend="table_demo_4"/>). Visuraque tacitos, nec abit leves Sipylus; repperit exsistunt; trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. <emphasis>At repelli</emphasis> collo in leviter?</simpara>
 <note>
 <simpara>Table examples were copied from the <link xlink:href="http://pandoc.org/README.html#tables">Pandoc User’s Guide</link>!</simpara>
 </note>
-<table frame="all" rowsep="1" colsep="1">
+<table xml:id="table_demo_1" frame="all" rowsep="1" colsep="1">
 <title>Demonstration of simple table syntax.</title>
 <tgroup cols="3">
 <colspec colname="col_1" colwidth="33*"/>
@@ -98,7 +98,7 @@
 </tgroup>
 </table>
 <simpara>Tui sibi fulmineo, fatebor non lutea, deorum, incerti ponti donis salutifer tenet effluxere dapibus. Iove nec cedit casu, huc mihi; sub apta humum quam alite cum, Iove.</simpara>
-<table frame="all" rowsep="1" colsep="1">
+<table xml:id="table_demo_2" frame="all" rowsep="1" colsep="1">
 <title>Demonstration of multiline table syntax.</title>
 <?dbhtml table-width="84%"?>
 <?dbfo table-width="84%"?>
@@ -133,7 +133,7 @@
 </tgroup>
 </table>
 <simpara>Suo Ne figura, erat hac, novem quicumque pectore pontum nolet sacerdotis dumque silvas, me <emphasis>visura cuiquam pondere</emphasis>.</simpara>
-<table frame="all" rowsep="1" colsep="1">
+<table xml:id="table_demo_3" frame="all" rowsep="1" colsep="1">
 <title>Demonstration of grid table syntax.</title>
 <?dbhtml table-width="73%"?>
 <?dbfo table-width="73%"?>
@@ -178,7 +178,7 @@
 </tgroup>
 </table>
 <simpara>Ademptas fodit duxit.</simpara>
-<table frame="all" rowsep="1" colsep="1">
+<table xml:id="table_demo_4" frame="all" rowsep="1" colsep="1">
 <title>Demonstration of pipe table syntax.</title>
 <tgroup cols="4">
 <colspec colname="col_1" colwidth="25*"/>
@@ -219,7 +219,7 @@
 </section>
 <section xml:id="fecit-nostro-macareus-premunt-quodque">
 <title>Fecit nostro Macareus premunt quodque</title>
-<simpara>Contra colorque locumque vivam, orbem habebat, nisi non alas pretium. Cum aprum elapsae velut Theseus vestigia piorum dolore esse Tegeaea. Vagitus cuspidis tetigit Calydonia confidit fetus tangere speciem spoliataque fides ad motu vertitur. Pudor videt, anum, sua pandite ter feris quoque simus accipiter fuisse, et cuspide volucris dracones o?</simpara>
+<simpara>Contra colorque locumque vivam, orbem habebat, nisi non alas pretium. Cum aprum elapsae velut Theseus <link xlink:href="http://jaspervdj.be/lorem-markdownum/">parentem fixit</link> vestigia piorum dolore esse Tegeaea. Vagitus cuspidis tetigit Calydonia confidit fetus tangere speciem spoliataque fides ad motu vertitur. Pudor videt, anum, sua pandite ter feris quoque simus accipiter fuisse, et cuspide volucris dracones o?</simpara>
 <simpara>Furta auxilium Perseus hinc alto Atlantis mortis similisque superos niveisque. Rapienda alis est, enim, dum via remeat suis tamen, sed Cydoneasque ferox et faces, angulus.</simpara>
 <section xml:id="tetigit-nunc-pacem">
 <title>Tetigit nunc pacem</title>

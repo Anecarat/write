@@ -105,17 +105,9 @@ Ademptas fodit duxit.
 Table: Demonstration of AsciiDoc table syntax.
 
 [[table_demo_5]]
-
 [cols="2*"]
-
 |===
-
-|a |b
-
-|A |B
-
-|1 |2
-
+|a |b |A |B |1 |2
 |===
 
 [[fecit-nostro-macareus-premunt-quodque]]

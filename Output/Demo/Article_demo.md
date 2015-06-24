@@ -117,21 +117,15 @@ Table: Demonstration of pipe table syntax.
 
 Table: Demonstration of AsciiDoc table syntax.
 
-[[table_demo_5]]
-
-[cols="2*"]
-
-|===
-
+[[table_demo_5]]§\
+[cols="2*"]§\
+|===§\
 |a
 |b
-
 |A
 |B
-
 |1
-|2
-
+|2§\
 |===
 
 

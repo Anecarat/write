@@ -102,9 +102,8 @@ Ademptas fodit duxit.
 |1 |1 |1 |1
 |============================
 
-Table: Demonstration of AsciiDoc table syntax.
-
 [[table_demo_5]]
+.Demonstration of AsciiDoc table syntax.
 [cols="2*"]
 |===
 |a |b |A |B |1 |2

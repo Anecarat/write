@@ -215,8 +215,8 @@
 </tbody>
 </tgroup>
 </table>
-<simpara>Table: Demonstration of AsciiDoc table syntax.</simpara>
-<informaltable xml:id="table_demo_5" frame="all" rowsep="1" colsep="1">
+<table xml:id="table_demo_5" frame="all" rowsep="1" colsep="1">
+<title>Demonstration of AsciiDoc table syntax.</title>
 <tgroup cols="2">
 <colspec colname="col_1" colwidth="50*"/>
 <colspec colname="col_2" colwidth="50*"/>
@@ -235,7 +235,7 @@
 </row>
 </tbody>
 </tgroup>
-</informaltable>
+</table>
 </section>
 </section>
 <section xml:id="fecit-nostro-macareus-premunt-quodque">

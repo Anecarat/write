@@ -115,9 +115,10 @@ Table: Demonstration of pipe table syntax.
 
 
 
-Table: Demonstration of AsciiDoc table syntax.
+
 
 [[table_demo_5]]§\
+.Demonstration of AsciiDoc table syntax.§\
 [cols="2*"]§\
 |===§\
 |a
@@ -127,6 +128,7 @@ Table: Demonstration of AsciiDoc table syntax.
 |1
 |2§\
 |===
+
 
 
 # Fecit nostro Macareus premunt quodque

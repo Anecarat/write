@@ -192,7 +192,7 @@ pandoc-citeproc --version
 pandoc-citeproc 0.7.1
 
 asciidoctor --version
-Asciidoctor 1.5.2 [http://asciidoctor.org]
+Asciidoctor 1.5.3.dev [http://asciidoctor.org]
 Runtime Environment (ruby 2.1.2p95 (2014-05-08) [x86_64-linux-gnu]) (lc:UTF-8 fs:UTF-8 in:- ex:UTF-8)
 
 xsltproc --version

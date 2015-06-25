@@ -4,7 +4,7 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>Sinat equo petebam exstinguor nostris</title>
-<date>2015-06-24</date>
+<date>2015-06-25</date>
 <author>
 <personname>
 <firstname>Lorem</firstname>
@@ -62,37 +62,37 @@
 </note>
 <table xml:id="table_demo_1" frame="all" rowsep="1" colsep="1">
 <title>Demonstration of simple table syntax.</title>
-<tgroup cols="3">
-<colspec colname="col_1" colwidth="33*"/>
-<colspec colname="col_2" colwidth="33*"/>
-<colspec colname="col_3" colwidth="33*"/>
+<tgroup cols="4">
+<colspec colname="col_1" colwidth="25*"/>
+<colspec colname="col_2" colwidth="25*"/>
+<colspec colname="col_3" colwidth="25*"/>
+<colspec colname="col_4" colwidth="25*"/>
 <thead>
 <row>
 <entry align="right" valign="top">Right</entry>
 <entry align="left" valign="top">Left</entry>
 <entry align="center" valign="top">Center</entry>
+<entry align="left" valign="top">Default</entry>
 </row>
 </thead>
 <tbody>
 <row>
-<entry align="right" valign="top"><simpara>Default</simpara></entry>
-<entry align="left" valign="top"><simpara>12</simpara></entry>
-<entry align="center" valign="top"><simpara>12</simpara></entry>
-</row>
-<row>
 <entry align="right" valign="top"><simpara>12</simpara></entry>
 <entry align="left" valign="top"><simpara>12</simpara></entry>
-<entry align="center" valign="top"><simpara>123</simpara></entry>
+<entry align="center" valign="top"><simpara>12</simpara></entry>
+<entry align="left" valign="top"><simpara>12</simpara></entry>
 </row>
 <row>
 <entry align="right" valign="top"><simpara>123</simpara></entry>
 <entry align="left" valign="top"><simpara>123</simpara></entry>
 <entry align="center" valign="top"><simpara>123</simpara></entry>
+<entry align="left" valign="top"><simpara>123</simpara></entry>
 </row>
 <row>
 <entry align="right" valign="top"><simpara>1</simpara></entry>
 <entry align="left" valign="top"><simpara>1</simpara></entry>
 <entry align="center" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
 </row>
 </tbody>
 </tgroup>

@@ -56,7 +56,7 @@
 </section>
 <section xml:id="prodis-prima-caphereus-suadent">
 <title>Prodis prima Caphereus suadent</title>
-<simpara>Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela (<xref linkend="table_demo_1"/>), firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia (<xref linkend="table_demo_2"/>), Haemum ipsa lanam inficit inpositaque nec cornua (<xref linkend="table_demo_3"/>), velim manus nymphe (<xref linkend="table_demo_4"/>). Visuraque tacitos (<xref linkend="table_demo_5"/>), nec abit leves Sipylus; repperit exsistunt; trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. <emphasis>At repelli</emphasis> collo in leviter?</simpara>
+<simpara>Ne tibi, qua adiere? Non urbes includite invadere pennas opus umbras tutela (<xref linkend="table_demo_1"/>), firmo quae molli ignes velis ubique ad procul. Undis religarat Pelates Astypaleia (<xref linkend="table_demo_2"/>), Haemum ipsa lanam inficit inpositaque nec cornua (<xref linkend="table_demo_3"/>), velim manus nymphe (<xref linkend="table_demo_4"/>). Visuraque tacitos (<xref linkend="table_demo_5"/>), nec abit leves Sipylus (<xref linkend="table_demo_6"/>); repperit exsistunt; trium. Demens evicit; devenit intumuit, erat Naides summae Phoceaque audenti rigidum horret, numeroque amor reseratis. <emphasis>At repelli</emphasis> collo in leviter?</simpara>
 <note>
 <simpara>Table examples 1–4 were copied from the <link xlink:href="http://pandoc.org/README.html#tables">Pandoc User’s Guide</link>!</simpara>
 </note>
@@ -215,19 +215,22 @@
 </tbody>
 </tgroup>
 </table>
+<simpara>Parantur inbutam matrisque vestes stipite; meo est quoque coniunx in quaterque.</simpara>
 <table xml:id="table_demo_5" frame="all" rowsep="1" colsep="1">
 <title>Demonstration of AsciiDoc table syntax.</title>
 <tgroup cols="2">
 <colspec colname="col_1" colwidth="50*"/>
 <colspec colname="col_2" colwidth="50*"/>
+<thead>
+<row>
+<entry align="left" valign="top">A</entry>
+<entry align="left" valign="top">B</entry>
+</row>
+</thead>
 <tbody>
 <row>
 <entry align="left" valign="top"><simpara>a</simpara></entry>
 <entry align="left" valign="top"><simpara>b</simpara></entry>
-</row>
-<row>
-<entry align="left" valign="top"><simpara>A</simpara></entry>
-<entry align="left" valign="top"><simpara>B</simpara></entry>
 </row>
 <row>
 <entry align="left" valign="top"><simpara>1</simpara></entry>
@@ -236,7 +239,9 @@
 </tbody>
 </tgroup>
 </table>
-<informaltable frame="all" rowsep="1" colsep="1">
+<simpara>Retegatur Turnus quantum erit.</simpara>
+<table xml:id="table_demo_6" frame="all" rowsep="1" colsep="1">
+<title>Demonstration of AsciiDoc table syntax with CSV import.</title>
 <tgroup cols="6">
 <colspec colname="col_1" colwidth="16*"/>
 <colspec colname="col_2" colwidth="16*"/>
@@ -305,7 +310,7 @@
 </row>
 </tbody>
 </tgroup>
-</informaltable>
+</table>
 </section>
 </section>
 <section xml:id="fecit-nostro-macareus-premunt-quodque">

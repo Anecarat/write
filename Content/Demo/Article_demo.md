@@ -131,6 +131,13 @@ Table: Demonstration of pipe table syntax.
 
 
 
+[format="csv", options="header"]§
+|===§
+include::../../Content/Demo/Demo_data.csv[]§
+|===
+
+
+
 # Fecit nostro Macareus premunt quodque
 
 Contra colorque locumque vivam, orbem habebat, nisi non alas pretium. Cum aprum elapsae velut Theseus [parentem fixit](http://jaspervdj.be/lorem-markdownum/) vestigia piorum dolore esse Tegeaea. Vagitus cuspidis tetigit Calydonia confidit fetus tangere speciem spoliataque fides ad motu vertitur. Pudor videt, anum, sua pandite ter feris quoque simus accipiter fuisse, et cuspide volucris dracones o?

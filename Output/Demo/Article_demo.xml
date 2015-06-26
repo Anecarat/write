@@ -4,7 +4,7 @@
 <article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>Sinat equo petebam exstinguor nostris</title>
-<date>2015-06-25</date>
+<date>2015-06-26</date>
 <author>
 <personname>
 <firstname>Lorem</firstname>
@@ -236,6 +236,76 @@
 </tbody>
 </tgroup>
 </table>
+<informaltable frame="all" rowsep="1" colsep="1">
+<tgroup cols="6">
+<colspec colname="col_1" colwidth="16*"/>
+<colspec colname="col_2" colwidth="16*"/>
+<colspec colname="col_3" colwidth="16*"/>
+<colspec colname="col_4" colwidth="16*"/>
+<colspec colname="col_5" colwidth="16*"/>
+<colspec colname="col_6" colwidth="16*"/>
+<thead>
+<row>
+<entry align="left" valign="top">A</entry>
+<entry align="left" valign="top">B</entry>
+<entry align="left" valign="top">C</entry>
+<entry align="left" valign="top">D</entry>
+<entry align="left" valign="top">E</entry>
+<entry align="left" valign="top">F</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>1</simpara></entry>
+<entry align="left" valign="top"><simpara>2</simpara></entry>
+<entry align="left" valign="top"><simpara>3</simpara></entry>
+<entry align="left" valign="top"><simpara>4</simpara></entry>
+<entry align="left" valign="top"><simpara>5</simpara></entry>
+<entry align="left" valign="top"><simpara>6</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>7</simpara></entry>
+<entry align="left" valign="top"><simpara>8</simpara></entry>
+<entry align="left" valign="top"><simpara>9</simpara></entry>
+<entry align="left" valign="top"><simpara>0</simpara></entry>
+<entry align="left" valign="top"><simpara>a</simpara></entry>
+<entry align="left" valign="top"><simpara>b</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>c</simpara></entry>
+<entry align="left" valign="top"><simpara>d</simpara></entry>
+<entry align="left" valign="top"><simpara>e</simpara></entry>
+<entry align="left" valign="top"><simpara>f</simpara></entry>
+<entry align="left" valign="top"><simpara>g</simpara></entry>
+<entry align="left" valign="top"><simpara>h</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>i</simpara></entry>
+<entry align="left" valign="top"><simpara>j</simpara></entry>
+<entry align="left" valign="top"><simpara>k</simpara></entry>
+<entry align="left" valign="top"><simpara>l</simpara></entry>
+<entry align="left" valign="top"><simpara>m</simpara></entry>
+<entry align="left" valign="top"><simpara>n</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>o</simpara></entry>
+<entry align="left" valign="top"><simpara>p</simpara></entry>
+<entry align="left" valign="top"><simpara>q</simpara></entry>
+<entry align="left" valign="top"><simpara>r</simpara></entry>
+<entry align="left" valign="top"><simpara>s</simpara></entry>
+<entry align="left" valign="top"><simpara>t</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>u</simpara></entry>
+<entry align="left" valign="top"><simpara>v</simpara></entry>
+<entry align="left" valign="top"><simpara>w</simpara></entry>
+<entry align="left" valign="top"><simpara>x</simpara></entry>
+<entry align="left" valign="top"><simpara>y</simpara></entry>
+<entry align="left" valign="top"><simpara>z</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
 </section>
 </section>
 <section xml:id="fecit-nostro-macareus-premunt-quodque">

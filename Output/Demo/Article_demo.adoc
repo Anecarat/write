@@ -109,6 +109,11 @@ Ademptas fodit duxit.
 |a |b |A |B |1 |2
 |===
 
+[format="csv", options="header"]
+|===
+include::../../Content/Demo/Demo_data.csv[]
+|===
+
 [[fecit-nostro-macareus-premunt-quodque]]
 Fecit nostro Macareus premunt quodque
 -------------------------------------

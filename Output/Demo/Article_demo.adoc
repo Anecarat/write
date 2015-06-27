@@ -1,7 +1,7 @@
 Sinat equo petebam exstinguor nostris
 =====================================
 :author: Lorem Ipsum
-:date: 2015-06-20
+:date: 2015-06-27
 
 [[nec-sponte-ait-ventisque]]
 Nec sponte ait ventisque

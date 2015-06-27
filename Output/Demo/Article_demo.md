@@ -117,27 +117,27 @@ Table: Demonstration of pipe table syntax.
 Parantur inbutam matrisque vestes stipite; meo est quoque coniunx in quaterque.
 
 
-[[table_demo_5]]§\
-.Demonstration of AsciiDoc table syntax.§\
-[cols="2*", options="header"]§\
-|===§\
+[[table_demo_5]]#\
+.Demonstration of AsciiDoc table syntax.#\
+[cols="2*", options="header"]#\
+|===#\
 |A
 |B
 |a
 |b
 |1
-|2§\
+|2#\
 |===
 
 
 Retegatur Turnus quantum erit.
 
 
-[[table_demo_6]]§\
-.Demonstration of AsciiDoc table syntax with CSV import.§\
-[options="header"]§\
-,===§\
-include::../../Content/Demo/Demo_data.csv[]§\
+[[table_demo_6]]#\
+.Demonstration of AsciiDoc table syntax with CSV import.#\
+[options="header"]#\
+,===#\
+include::../../Content/Demo/Demo_data.csv[]#\
 ,===
 
 

@@ -135,10 +135,10 @@ Retegatur Turnus quantum erit.
 
 [[table_demo_6]]§\
 .Demonstration of AsciiDoc table syntax with CSV import.§\
-[format="csv", options="header"]§\
-|===§\
+[options="header"]§\
+,===§\
 include::../../Content/Demo/Demo_data.csv[]§\
-|===
+,===
 
 
 

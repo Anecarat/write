@@ -123,7 +123,7 @@ make all
 
 This setup allows for a hybrid approach the get the most out both Markdown/Pandoc and AsciiDoc/Asciidoctor, e.g.:
 
-* Pandoc’s all powerful citeproc extension automatically generates fully formatted references, a feature [complete missing in AsciiDoctor](https://github.com/asciidoctor/asciidoctor/issues/1374).
+* Pandoc’s all powerful citeproc extension automatically generates fully formatted references, a feature [not natively supported by AsciiDoctor](https://github.com/asciidoctor/asciidoctor/issues/1374).
 * Only AsciiDoc supports cross references.
 
 

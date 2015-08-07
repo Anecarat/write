@@ -147,7 +147,7 @@ In addition write*!* enables you to do the following:
 
 * Use cross references in native AsciiDoc syntax (`<<reference-id>>`), becaue Pandoc’s `raw_html` extension is disabled.
 * Multi-line blocks (e.g., AsciiDoc tables) will not work with their default syntax, because single new-lines are wrapped into one line by Pandoc. Thereby please add a number sign (`#`) at the end of the line to preserve literal breaks.
-* The `include` directive can to be used either absolute or relative paths. However relative paths have to be relative to the AsciiDoc file, which is located in `Output/<Project name>/`, **not** `Content/<Project name>/`.
+* The `include` directive can be used either with absolute or relative paths. However relative paths have to be relative to the AsciiDoc file, which is located in `Output/<Project name>/`, **not** `Content/<Project name>/`.
 
 Please see `Content/Demo/*.md` for examples.
 

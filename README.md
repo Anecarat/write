@@ -26,13 +26,13 @@ Open up your favourite terminal and let’s go!
 
 ## Prerequisites
 
-You’ll need to install [Make](https://www.gnu.org/software/make/), [Git](https://git-scm.com/), [Pandoc](http://pandoc.org/), [pandoc-citeproc](http://pandoc.org/), [Asciidoctor](http://asciidoctor.org/), [xsltproc](http://xmlsoft.org/), [DocBook XSL stylesheets](http://docbook.sourceforge.net/), [FOP](https://xmlgraphics.apache.org/fop/), and [unoconv](http://dag.wiee.rs/home-made/unoconv/):
+You’ll need to install up-to-date versions of [Make](https://www.gnu.org/software/make/), [Git](https://git-scm.com/), [Pandoc](http://pandoc.org/), [pandoc-citeproc](http://pandoc.org/), [Asciidoctor](http://asciidoctor.org/), [xsltproc](http://xmlsoft.org/), [DocBook XSL stylesheets](http://docbook.sourceforge.net/), [FOP](https://xmlgraphics.apache.org/fop/), and [unoconv](http://dag.wiee.rs/home-made/unoconv/):
 
 ```sh
 sudo apt-get install make git pandoc pandoc-citeproc asciidoctor xsltproc docbook-xsl fop unoconv
 ```
 
-Ubuntu is pretty up-to-date on most of the required software. However you can **optionally** update [Pandoc](https://github.com/jgm/pandoc/wiki/Installing-the-development-version-of-pandoc) and/or [Asciidoctor](https://github.com/asciidoctor/asciidoctor#installation) to their respective development versions to get the most out of you document.
+Ubuntu is normally pretty up-to-date on most of the required software. However you can **optionally** update [Pandoc](https://github.com/jgm/pandoc/wiki/Installing-the-development-version-of-pandoc) and/or [Asciidoctor](https://github.com/asciidoctor/asciidoctor#installation) to their respective development versions to get the most out of you document.
 
 
 ## Get write*!*
@@ -101,10 +101,10 @@ make -B all
 
 ```sh
 cd write
-make <Project name>/<Document name>.article
+make Project_name/Document_name.article
 ```
 
-This creates a new document named `<Document name>.md` in the folder `Content/<Project name>/`. Add your text (in Markdown), and run `make all` to convert it to PDF, HTML, and Microsoft Word files. Those can then be found in the folder `Output/<Project name>/`. Voilà!
+This creates a new document named `Document_name.md` in the folder `Content/Project_name/`. Add your text (in Markdown), and run `make all` to convert it to PDF, HTML, and Microsoft Word files. Those can then be found in the folder `Output/Project_name/`. Voilà!
 
 
 ## Example
